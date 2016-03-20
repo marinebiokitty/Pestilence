@@ -1,1 +1,0 @@
-\edef\gamepath{"C:/Users/Acata/Desktop/Larps/sgs-guild-camp-2016"}

@@ -11,7 +11,7 @@ if ((!$ARGV[1]) || ($ARGV[3])) {
     exit;
 }
 
-$gameclass = "guildcamp1";
+$gameclass = "guildcamp4";
 
 if ($ARGV[2]) {
     $gameclass = $ARGV[2];
