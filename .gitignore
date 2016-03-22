@@ -5,3 +5,6 @@ LaTeX/guildcamp4_path.cls
 *.log
 *.gz(busy)
 *.toc
+*.fls
+*.dvi
+*latexmk
