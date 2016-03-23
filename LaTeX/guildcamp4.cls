@@ -38,8 +38,8 @@
 %%
 %% Basic custom game information; gets used everywhere.  Don't put
 %% linebreaks in these and keep their lengths reasonable.
-\def\gamename{A Reunion at Katmeers}
-\def\gamedate{May 23rd, 2015}
+\def\gamename{Blood Captives}
+\def\gamedate{April 2nd, 2016}
 
 
 %%%%%
