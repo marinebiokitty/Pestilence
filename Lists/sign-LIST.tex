@@ -154,23 +154,28 @@
 }
 
 
-
 \NEW{Sign}{\sStationFourFixed}{
 	\s\MYname	{Operational Engine}
 	\s\MYloc	{{\it Airship Station}}
 	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction. The engine is running smoothly.  You may not interact with this station unless you know otherwise.}
 }
 
+\NEW{Sign}{\sStationFourDiagnosed}{
+	\s\MYname	{Sabotaged Engine}
+	\s\MYloc	{{\it Airship Station}}
+	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction.  Sparking dangerously the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. Upon diagnosing the problem you see that you need to find a \iCircuitBoard{}. Install the \iCircuitBoard{} by staying within one ZOC of the sign for 5 minutes with the help two other people.}
+}
+
 \NEW{Sign}{\sStationFourBroken}{
 	\s\MYname	{Sabotaged Engine}
 	\s\MYloc	{{\it Airship Station}}
-	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction.  Sparking dangerously the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. }
+	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction.  Sparking dangerously the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. If you have the \aRepair{} ability you may lift this sign and read the one below it.}
 }
 
 \NEW{Sign}{\sStationRunning}{
 	\s\MYname	{Engine}
 	\s\MYloc	{{\it Airship Station}}
-	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction.  The engine is running smoothly. You may not interact with this station unless you know otherwise. }
+	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction.  The engine is running smoothly. At T+2 Hrs remove this sign.  }
 }
 
 
@@ -183,7 +188,8 @@
 \NEW{Sign}{\sBloodAnalyzer}{
 	\s\MYname	{Blood Analyzer}
 	\s\MYloc	{}
-	\s\MYtext	{A machine made to analyze blood}
+	\s\MYtext	{A machine made to analyze blood. In order to analyze the blood you have collected you must insert the blood into the analyzer and conduct a 15 count (note this is interruptible.) 
+Upon successful completion destroy the blood item card.}
 }
 
 \NEW{Sign}{\sTestTubeRack}{
