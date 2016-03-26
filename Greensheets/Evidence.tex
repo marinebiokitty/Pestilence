@@ -1,0 +1,43 @@
+%%%%%
+%%
+%% Greensheets live in this directory.  This file doubles as a
+%% latex'able example greensheet.
+%%
+%% _template.tex serves as a bare-bones template suitable for
+%% copying when starting a new sheet.
+%%
+%% Greensheet macros (in ../Lists/green-LIST.tex, presumably) each
+%% have a file that lives here.  The argument to \name{...} probably
+%% should be the macro for the given greensheet, which will generate
+%% the greensheet's name as specified in green-LIST.tex.  However, you
+%% can also just use \name{Some Text} if you want.
+%%
+%%%%%
+
+\documentclass[green]{guildcamp4}
+\begin{document}
+
+\name{\gEvidence{}}
+
+\TODO{This is a test greensheet.}
+
+During game, players may be required to repeat a phrase out loud a certain number of times in order to complete an action. For example: ``Analyzing blood sample. Red One A. Analyzing blood sample. Red One A. Analyzing blood sample. Red One A." This indicates that they are performing an interruptible action that may be illegal. 
+
+When you observe a player doing this, whether you chose to interrupt them or not, you may show them your Badge. If you do, they must give you an ability card corresponding to the action. Place it in your Evidence Bag. This ability card is now considered Evidence. 
+
+If you have 3 pieces of illegal Evidence from any one character, you can arrest that player. Tie them up with rope on your ship.
+
+If you have 3 pieces of legal Evidence at any time, you must turn in your Badge. Destroy it.
+
+To report Evidence, use your ship's transponder. This is an interruptible action that takes fifteen seconds per piece of Evidence.
+
+(Frith only) You know that any actions with odd numbers in their color-number-letter triplet are illegal in Frith space.
+
+\begin{enum}[Notes]
+  \item A player must have an ability card to use it. Players may have multiple copies of the same ability card.
+  \item Ability cards that are Evidence may not be used.
+  \item Players and characters may or may not know which actions are illegal, including the one performing the action.
+\end{enum}
+
+
+\end{document}
