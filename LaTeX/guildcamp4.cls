@@ -81,7 +81,7 @@
 %% Define \signdate as either \gamedate or \gamedateabbrev.  If you
 %% plan to leave signs up between different runs, \gamedate may be
 %% better.
-\def\takedownby{NA}
+\def\takedownby{April 3rd, 2016}
 \def\signdate{\gamedateabbrev}
 
 

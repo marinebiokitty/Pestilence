@@ -169,10 +169,10 @@
 \NEW{Sign}{\sStationFourBroken}{
 	\s\MYname	{Sabotaged Engine}
 	\s\MYloc	{{\it Airship Station}}
-	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction.  Sparking dangerously the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. If you have the \aRepair{} ability you may lift this sign and read the one below it.}
+	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction.  Sparking dangerously the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. If you have the Repair ability you may lift this sign and read the one below it.}
 }
 
-\NEW{Sign}{\sStationRunning}{
+\NEW{Sign}{\sStationFourRunning}{
 	\s\MYname	{Engine}
 	\s\MYloc	{{\it Airship Station}}
 	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction.  The engine is running smoothly. At T+2 Hrs remove this sign.  }
@@ -206,16 +206,156 @@ Upon successful completion destroy the blood item card.}
 }
 
 
-\NEW{Sign}{\sAnodyneTerminal}{
+\NEW{Sign}{\sAnodyneTerminalLoggedOut}{
 	\s\MYname	{Computer Terminal}
 	\s\MYloc	{}
-	\s\MYtext	{A small screen, a keyboard, and a dock for connecting portable devices.}
+	\s\MYtext	{A monitor, a keyboard, and a dock for connecting portable devices. If you have a login and password, you can read the next sheet.}
+}
+
+\NEW{Label}{\sAnodyneTerminalOne}{
+	\s\MYname	{Evidence Terminal 1/3}
+	\s\MYloc	{}
+	\s\MYtext	{
+		When uploading evidence, consult this table to determine the evidence type, then place the recording in the corresponding small envelope (behind these sheets).
+		
+		\centering
+		\begin{tabular}{|c|c||c|}
+		\hline
+		\bf A/I/S & \bf C & \bf E \\
+		\hline
+05466&00705&5\\ 05466&01222&5\\ 05466&06919&1\\ 05466&48715&5\\ 05466&50663&4\\ 05466&52973&1\\ 05466&58047&1\\ 05466&64192&2\\ 05466&65025&1\\ 05466&92252&1\\ 05466&95125&1\\ 05466&95626&1\\ 06058&00705&4\\ 06058&01222&1\\ 06058&06919&4\\ 06058&48715&4\\ 06058&50663&2\\ 06058&52973&1\\ 06058&58047&5\\ 06058&64192&3\\ 06058&65025&2\\ 06058&92252&3\\ 06058&95125&1\\ 06058&95626&5\\ 09556&00705&1\\ 09556&01222&2\\ 09556&06919&1\\ 09556&48715&5\\ 09556&50663&3\\ 09556&52973&1\\ 09556&58047&5\\ 09556&64192&5\\ 09556&65025&2\\ 09556&92252&1\\ 09556&95125&1\\ 09556&95626&5\\ 
+		\hline
+		\end{tabular}
+		\quad
+		\begin{tabular}{|c|c|c|}
+		\hline
+		\bf A/I/S & \bf C & \bf E \\
+		\hline
+09624&00705&5\\ 09624&01222&3\\ 09624&06919&1\\ 09624&48715&5\\ 09624&50663&3\\ 09624&52973&4\\ 09624&58047&5\\ 09624&64192&4\\ 09624&65025&5\\ 09624&92252&1\\ 09624&95125&4\\ 09624&95626&1\\ 10767&00705&3\\ 10767&01222&2\\ 10767&06919&3\\ 10767&48715&2\\ 10767&50663&2\\ 10767&52973&5\\ 10767&58047&1\\ 10767&64192&3\\ 10767&65025&3\\ 10767&92252&5\\ 10767&95125&1\\ 10767&95626&2\\ 25001&00705&3\\ 25001&01222&3\\ 25001&06919&3\\ 25001&48715&3\\ 25001&50663&4\\ 25001&52973&4\\ 25001&58047&1\\ 25001&64192&4\\ 25001&65025&4\\ 25001&92252&4\\ 25001&95125&5\\ 25001&95626&2\\ 
+		\hline
+		\end{tabular}
+		\quad
+		\begin{tabular}{|c|c|c|}
+		\hline
+		\bf A/I/S & \bf C & \bf E \\
+		\hline
+31884&00705&1\\ 31884&01222&1\\ 31884&06919&1\\ 31884&48715&4\\ 31884&50663&2\\ 31884&52973&5\\ 31884&58047&5\\ 31884&64192&5\\ 31884&65025&3\\ 31884&92252&1\\ 31884&95125&2\\ 31884&95626&5\\ 42235&00705&3\\ 42235&01222&1\\ 42235&06919&5\\ 42235&48715&2\\ 42235&50663&3\\ 42235&52973&3\\ 42235&58047&2\\ 42235&64192&5\\ 42235&65025&5\\ 42235&92252&4\\ 42235&95125&4\\ 42235&95626&4\\ 47226&00705&3\\ 47226&01222&1\\ 47226&06919&4\\ 47226&48715&3\\ 47226&50663&4\\ 47226&52973&2\\ 47226&58047&2\\ 47226&64192&1\\ 47226&65025&3\\ 47226&92252&3\\ 47226&95125&5\\ 47226&95626&4\\ 
+		\hline
+		\end{tabular}
+	}
+}
+
+\NEW{Label}{\sAnodyneTerminalTwo}{
+	\s\MYname	{Evidence Terminal 2/3}
+	\s\MYloc	{}
+	\s\MYtext	{
+		\centering		
+		\begin{tabular}{|c|c|c|}
+		\hline
+		\bf A/I/S & \bf C & \bf E \\
+		\hline
+52610&00705&4\\ 52610&01222&3\\ 52610&06919&3\\ 52610&48715&5\\ 52610&50663&3\\ 52610&52973&4\\ 52610&58047&2\\ 52610&64192&4\\ 52610&65025&3\\ 52610&92252&2\\ 52610&95125&4\\ 52610&95626&4\\ 53039&00705&2\\ 53039&01222&5\\ 53039&06919&2\\ 53039&48715&3\\ 53039&50663&1\\ 53039&52973&2\\ 53039&58047&2\\ 53039&64192&5\\ 53039&65025&4\\ 53039&92252&4\\ 53039&95125&1\\ 53039&95626&3\\ 55613&00705&2\\ 55613&01222&2\\ 55613&06919&4\\ 55613&48715&2\\ 55613&50663&5\\ 55613&52973&2\\ 55613&58047&2\\ 55613&64192&2\\ 55613&65025&3\\ 55613&92252&1\\ 55613&95125&1\\ 55613&95626&3\\ 
+		\hline
+		\end{tabular}
+		\quad
+		\begin{tabular}{|c|c|c|}
+		\hline
+		\bf A/I/S & \bf C & \bf E \\
+		\hline
+61772&00705&3\\ 61772&01222&3\\ 61772&06919&1\\ 61772&48715&3\\ 61772&50663&2\\ 61772&52973&5\\ 61772&58047&1\\ 61772&64192&4\\ 61772&65025&3\\ 61772&92252&1\\ 61772&95125&4\\ 61772&95626&5\\ 71012&00705&5\\ 71012&01222&3\\ 71012&06919&2\\ 71012&48715&4\\ 71012&50663&1\\ 71012&52973&3\\ 71012&58047&4\\ 71012&64192&3\\ 71012&65025&2\\ 71012&92252&4\\ 71012&95125&4\\ 71012&95626&5\\ 73452&00705&4\\ 73452&01222&3\\ 73452&06919&2\\ 73452&48715&1\\ 73452&50663&3\\ 73452&52973&4\\ 73452&58047&2\\ 73452&64192&5\\ 73452&65025&4\\ 73452&92252&5\\ 73452&95125&2\\ 73452&95626&2\\ 
+		\hline
+		\end{tabular}
+		\quad
+		\begin{tabular}{|c|c|c|}
+		\hline
+		\bf A/I/S & \bf C & \bf E \\
+		\hline
+80291&00705&3\\ 80291&01222&5\\ 80291&06919&1\\ 80291&48715&3\\ 80291&50663&2\\ 80291&52973&2\\ 80291&58047&1\\ 80291&64192&3\\ 80291&65025&1\\ 80291&92252&5\\ 80291&95125&3\\ 80291&95626&2\\ 84346&00705&3\\ 84346&01222&2\\ 84346&06919&2\\ 84346&48715&3\\ 84346&50663&2\\ 84346&52973&2\\ 84346&58047&5\\ 84346&64192&1\\ 84346&65025&5\\ 84346&92252&1\\ 84346&95125&2\\ 84346&95626&2\\ 90937&00705&5\\ 90937&01222&5\\ 90937&06919&5\\ 90937&48715&2\\ 90937&50663&4\\ 90937&52973&2\\ 90937&58047&5\\ 90937&64192&4\\ 90937&65025&3\\ 90937&92252&1\\ 90937&95125&5\\ 90937&95626&5\\ 
+		\hline
+		\end{tabular}
+	}
+}
+
+\NEW{Label}{\sAnodyneTerminalThree}{
+	\s\MYname	{Evidence Terminal 3/3}
+	\s\MYloc	{}
+	\s\MYtext	{
+		\centering
+		\begin{tabular}{|c|c|c|}
+		\hline
+		\bf A/I/S & \bf C & \bf E \\
+		\hline
+91993&00705&2\\ 91993&01222&5\\ 91993&06919&2\\ 91993&48715&3\\ 91993&50663&5\\ 91993&52973&2\\ 91993&58047&1\\ 91993&64192&5\\ 91993&65025&4\\ 91993&92252&3\\ 91993&95125&3\\ 91993&95626&2\\ 93136&00705&1\\ 93136&01222&2\\ 93136&06919&1\\ 93136&48715&1\\ 93136&50663&5\\ 93136&52973&2\\ 93136&58047&1\\ 93136&64192&1\\ 93136&65025&3\\ 93136&92252&2\\ 93136&95125&4\\ 93136&95626&1\\ 
+		\hline
+		\end{tabular}
+	}
+}
+
+
+\NEW{LabelSmall}{\sEvidenceEnvelopeOne}{
+	\s\MYname	{Evidence Type 1}
+	\s\MYloc	{}
+	\s\MYtext	{After placing the third (or greater) recording in this envelope, read the next page.}
+}
+
+\NEW{LabelSmall}{\sEvidenceEnvelopeOneTrigger}{
+	\s\MYname	{Proof of Illegal Cult Activity Collected}
+	\s\MYloc	{}
+	\s\MYtext	{You have collected enough evidence of Cult of the Unknowing activity aboard \emph{TIS Chivalry} to impound the ship.}
+}
+
+\NEW{LabelSmall}{\sEvidenceEnvelopeTwo}{
+	\s\MYname	{Evidence Type 2}
+	\s\MYloc	{}
+	\s\MYtext	{After placing the third (or greater) recording in this envelope, read the next page.}
+}
+
+\NEW{LabelSmall}{\sEvidenceEnvelopeTwoTrigger}{
+	\s\MYname	{Proof of Slavery Collected}
+	\s\MYloc	{}
+	\s\MYtext	{You have collected enough evidence of slavery aboard \emph{TIS Chivalry} to impound the ship.}
+}
+
+\NEW{LabelSmall}{\sEvidenceEnvelopeThree}{
+	\s\MYname	{Evidence Type 3}
+	\s\MYloc	{}
+	\s\MYtext	{After placing the third (or greater) recording in this envelope, read the next page.}
+}
+
+\NEW{LabelSmall}{\sEvidenceEnvelopeThreeTrigger}{
+	\s\MYname	{Proof of Corrupt Partner Collected}
+	\s\MYloc	{}
+	\s\MYtext	{You have collected enough evidence to charge \cCbad{} with corruption.}
+}
+
+\NEW{LabelSmall}{\sEvidenceEnvelopeFour}{
+	\s\MYname	{Evidence Type 4}
+	\s\MYloc	{}
+	\s\MYtext	{After placing the third (or greater) recording in this envelope, read the next page.}
+}
+
+\NEW{LabelSmall}{\sEvidenceEnvelopeFourTrigger}{
+	\s\MYname	{Proof of Parole Violation Collected}
+	\s\MYloc	{}
+	\s\MYtext	{You have collected enough evidence to charge \cPilot{} with violating parole.}
+}
+
+\NEW{LabelSmall}{\sEvidenceEnvelopeFive}{
+	\s\MYname	{Evidence Type 5}
+	\s\MYloc	{}
+	\s\MYtext	{After placing the third (or greater) recording in this envelope, read the next page.}
+}
+
+\NEW{LabelSmall}{\sEvidenceEnvelopeFiveTrigger}{
+	\s\MYname	{Hobbyist Videographer}
+	\s\MYloc	{}
+	\s\MYtext	{Congratulations, you have collected a bunch of worthless footage that is proof of absolutely nothing. Taxpayers will be happy to know that this is how Frith's Finest spends their time on duty.}
 }
 
 \NEW{Sign}{\sAnodyneWeaponsLocker}{
-	\s\MYname	{Locked Cabinet}
+	\s\MYname	{Locked Compartment}
 	\s\MYloc	{}
-	\s\MYtext	{A locked cabinet. You're not sure what's inside.}
+	\s\MYtext	{A compartment locked by a numeric keypad. You can only open this if you know the unlock code.}
 }
 
 
