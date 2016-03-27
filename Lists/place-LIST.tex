@@ -51,26 +51,38 @@
 
 \NEW{Place}{\pBridgeC}{
 	\s\MYname	{Bridge of the Chivalry}
-	\s\MYsigns	{\sBridgeC{}}
+	\s\MYsigns	{\sBridgeC{}\sVoneTerminalLoggedOut{}\sVoneTerminalLoggedIn}
 	\s\MYitems	{}
 }
 
 \NEW{Place}{\pEngineC}{
 	\s\MYname	{Engine Room of the Chivalry}
-	\s\MYsigns	{\sEngineC{} \sStationFourFixed{} \sStationFourDiagnosed{} \sStationFourBroken{} \sStationFourRunning{}}
+	\s\MYsigns	{\sEngineC{} \sStationFourFixed{} \sStationFourDiagnosed{} \sStationFourBroken{} \sStationFourRunning{}\sStealth{} \sVtwoTerminalLoggedOut{}\sVtwoTerminalLoggedIn{}}
+	\s\MYitems	{}
+}
+
+\NEW{Place}{\pEngineR}{
+	\s\MYname	{Raid Shuttle Engine Room}
+	\s\MYsigns	{\sEngineR{} \sStationRFixed{} \sStationRDiagnosed{} \sStationRBroken{} \sStationRRunning{}}
+	\s\MYitems	{}
+}
+
+\NEW{Place}{\pEngineP}{
+	\s\MYname	{Pillage Shuttle Engine Room}
+	\s\MYsigns	{\sEngineP{} \sStationPFixed{} \sStationPDiagnosed{} \sStationPBroken{} \sStationPRunning{}}
 	\s\MYitems	{}
 }
 
 \NEW{Place}{\pBioLabC}{
 	\s\MYname	{Biological Laboratory}
-	\s\MYsigns	{\sBioLab{}\sBloodAnalyzer{} \sTestTubeRack{}}
+	\s\MYsigns	{\sBioLab{}\sBloodAnalyzer{} \sTestTubeRack{}\sBioLabLock{}\sBioLabLever{}\sFount{}\sVthreeTerminalLoggedOut{}\sVthreeTerminalLoggedIn{}}
 	\s\MYitems	{}
 }
 
 \NEW{Place}{\pAnodyne}{
 	\s\MYname	{The HMS Anodyne}
 	\s\MYsigns	{
-    	\sAnodyne{}\sAnodyneWeaponsLocker{}
+    	\sAnodyne{}\sAnodyneScan{}\sAnodyneWeaponsLocker{}
 		\sAnodyneTerminalLoggedOut{}\sAnodyneTerminalOne{}\sAnodyneTerminalTwo{}\sAnodyneTerminalThree{}
 		\sEvidenceEnvelopeOne{}\sEvidenceEnvelopeOneTrigger{}
 		\sEvidenceEnvelopeTwo{}\sEvidenceEnvelopeTwoTrigger{}
@@ -78,6 +90,12 @@
 		\sEvidenceEnvelopeFour{}\sEvidenceEnvelopeFourTrigger{}
 		\sEvidenceEnvelopeFive{}\sEvidenceEnvelopeFiveTrigger{}
 		}
+	\s\MYitems	{}
+}
+
+\NEW{Place}{\pLifeSupport}{
+	\s\MYname	{Life Support}
+	\s\MYsigns	{\sLSRepair{}\sLSTaskOne{}\sLSTaskTwo{}\sLSTaskThree{}\sLSTaskFour{}}
 	\s\MYitems	{}
 }
 
