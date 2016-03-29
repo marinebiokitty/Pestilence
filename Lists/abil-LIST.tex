@@ -39,28 +39,32 @@
   }
 
 \NEW{Abil}{\aFiremansCarry}{
-  \s\MYname	{Fireman's Carry}
-  \s\MYtext	{You can carry a body as if it were two hands bulky.}
-  \s\MYeffect	{I can carry this body well.}
-  }
+    \s\MYname	{Fireman's Carry}
+    \s\MYtext	{You can carry a body as if it were two hands bulky.}
+    \s\MYeffect	{I can carry this body well.}
+	\s\MYnumber {9221}    
+}
 
- \NEW{Abil}{\aRepair}{
- 	\s\MYname	{Engineering Knowledge}
- 	\s\MYtext	{You have the knowldge to be able to repair complex machanical devices}
- 	\s\MYeffect	{I know how to fix machines}
- }
+\NEW{Abil}{\aRepair}{
+	\s\MYname	{Engineering Knowledge}
+	\s\MYtext	{You have the knowldge to be able to repair complex machanical devices}
+	\s\MYeffect	{I know how to fix machines}
+	\s\MYnumber {7690}	
+}
  
-  \NEW{Abil}{\aHolyHands}{
-  	\s\MYname	{Holy Hand}
-  	\s\MYtext	{You have a Blessing such that your hands, and thus weapons wielded will induce Holy Water weakness in Ver}
-  	\s\MYeffect	{You feel as though you have been exposed to Holy Water}
-  }
+\NEW{Abil}{\aHolyHands}{
+	\s\MYname	{Holy Hand}
+	\s\MYtext	{You have a Blessing such that your hands, and thus weapons wielded will induce Holy Water weakness in Ver}
+	\s\MYeffect	{You feel as though you have been exposed to Holy Water}
+	\s\MYnumber {1036}	
+}
   
-  \NEW{Abil}{\aOpenWay}{
-  	\s\MYname	{Opened Path}
-  	\s\MYtext	{If both the time is after 3 hrs 45min, the ritual leader Chants "Fjeng dyre kell Yug Sothoth" then you will be taken to the home of the ritual leader}
-  	\s\MYeffect	{You see an inky black swirl in reality envelope me as I disappear.}
-  }
+\NEW{Abil}{\aOpenWay}{
+	\s\MYname	{Opened Path}
+	\s\MYtext	{If both the time is after 3 hrs 45min, the ritual leader Chants "Fjeng dyre kell Yug Sothoth" then you will be taken to the home of the ritual leader}
+	\s\MYeffect	{You see an inky black swirl in reality envelope me as I disappear.}
+	\s\MYnumber {7694}	
+}
   
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -72,28 +76,31 @@
 
 %% Everyone has these 3
 \NEW{Abil}{\aAssist}{
-  \s\MYname	{Assist}
-  \s\MYtext	{You can assist someone else's attack.  You must be
-		within ZoC of both the attacker and target.  Within two
-		seconds of an attack, direct this at the attacker,
-		saying ``\MYname'' and your CR.}
-  \s\MYeffect	{I assist your attack.}
-  }
+    \s\MYname	{Assist}
+    \s\MYtext	{You can assist someone else's attack.  You must be
+    		within ZoC of both the attacker and target.  Within two
+    		seconds of an attack, direct this at the attacker,
+    		saying ``\MYname'' and your CR.}
+    \s\MYeffect	{I assist your attack.}
+	\s\MYnumber {2063}    
+}
 
 \NEW{Abil}{\aKnockOut}{
-  \s\MYname	{Knock Out}
-  \s\MYtext	{You can knock someone out as an attack.  This requires
-		a {\bf blunt} weapon.  Say ``\MYname'' and your CR.}
-  \s\MYeffect	{I knock you out.}
-  }
+    \s\MYname	{Knock Out}
+    \s\MYtext	{You can knock someone out as an attack.  This requires
+    		a {\bf blunt} weapon.  Say ``\MYname'' and your CR.}
+    \s\MYeffect	{I knock you out.}
+	\s\MYnumber {3603}    
+}
 
 \NEW{Abil}{\aWound}{
-  \s\MYname	{Wound}
-  \s\MYtext	{You can wound someone as an attack.  This requires an
-		{\bf edged} weapon, such as a knife.  Say ``\MYname'' and
-		your CR.}
-  \s\MYeffect	{I wound you.}
-  }
+    \s\MYname	{Wound}
+    \s\MYtext	{You can wound someone as an attack.  This requires an
+    		{\bf edged} weapon, such as a knife.  Say ``\MYname'' and
+    		your CR.}
+    \s\MYeffect	{I wound you.}
+	\s\MYnumber {7188}    
+}
 
 
 %% the \basecombat macro can be prepended to the Char abils list
@@ -102,80 +109,91 @@
 
 %% only some people have these
 \NEW{Abil}{\aDisarm}{
-  \s\MYname	{Disarm}
-  \s\MYtext	{You can disarm one item from someone as an attack.  Say
-		``\MYname'' and your CR.  Point at the item you want to
-		disarm.  If the attack works, they must drop that item.}
-  \s\MYeffect	{I disarm that item.}
-  }
+    \s\MYname	{Disarm}
+    \s\MYtext	{You can disarm one item from someone as an attack.  Say
+    		``\MYname'' and your CR.  Point at the item you want to
+    		disarm.  If the attack works, they must drop that item.}
+    \s\MYeffect	{I disarm that item.}
+	\s\MYnumber {2137}    
+}
 
 \NEW{Abil}{\aRestrain}{
-  \s\MYname	{Restrain}
-  \s\MYtext	{You can restrain someone as an attack.  Say ``\MYname''
-		and your CR.  You may freely drag, attack, or (if you have
-		a weapon) killing-blow them.  To do anything else, or if
-		your health state changes, incant ``release'' and let them
-		go.}
-  \s\MYeffect	{I restrain you.  You are restrained until I incant
-		``release.''}
-  }
+    \s\MYname	{Restrain}
+    \s\MYtext	{You can restrain someone as an attack.  Say ``\MYname''
+    		and your CR.  You may freely drag, attack, or (if you have
+    		a weapon) killing-blow them.  To do anything else, or if
+    		your health state changes, incant ``release'' and let them
+    		go.}
+    \s\MYeffect	{I restrain you.  You are restrained until I incant
+    		``release.''}
+	\s\MYnumber {9242}		
+}
 \NEW{Abil}{\aThrow}{
-  \s\MYname	{Throw}
-  \s\MYtext	{You can throw someone as an attack.  Say ``\MYname'' and
-		your CR.  Point in the direction you want to throw them.}
-  \s\MYeffect	{I throw you.  Go in the direction I point ten full steps
-		or until you hit a wall or similar.}
-  }
+    \s\MYname	{Throw}
+    \s\MYtext	{You can throw someone as an attack.  Say ``\MYname'' and
+    		your CR.  Point in the direction you want to throw them.}
+    \s\MYeffect	{I throw you.  Go in the direction I point ten full steps
+    		or until you hit a wall or similar.}
+	\s\MYnumber {0029}		
+}
   
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NEW{Abil}{\aGamma}{
-  \s\MYname	{Collect Gamma}
-  \s\MYtext	{When you collect blood for the purposes of analyzing it, ask the person you are drawing blood from to write their $\gamma$ score on a sheet of paper and put it into the test tube envelope without showing it to you. Don't open the envelope until directed to do so.}
-  \s\MYeffect	{Write your $\gamma$ score on a sheet of paper and put it into the \iTestTube{} envelope.}
-  }
-  
+	\s\MYname	{Collect Gamma}
+    \s\MYtext	{When you collect blood for the purposes of analyzing it, ask the person you are drawing blood from to write their $\gamma$ score on a sheet of paper and put it into the test tube envelope without showing it to you. Don't open the envelope until directed to do so.}
+    \s\MYeffect	{Write your $\gamma$ score on a sheet of paper and put it into the \iTestTube{} envelope.}
+    \s\MYnumber {9246}
+}
+
 \NEW{Abil}{\aFirstAid}{
-    	\s\MYname	{First Aid}
-    	\s\MYtext	{Spend 1 minute roleplaying ministering to your patient. At the end of this minute, if they have not already died, show this card to them. They are no longer wounded.}
-    	\s\MYeffect	{You are no longer wounded. Wake up after 2 minutes.}
-    }
-    
-    \NEW{Abil}{\aTrump}{
-    	\s\MYname	{Relieve from Duty}
-    	\s\MYtext	{Use this ability to fire an officer from their position aboard TIS Chivalry.}
-    	\s\MYeffect	{You are are hereby relieved from duty. When you return to the Ver homeworld you will have to find work elsewhere.}
-    }
+	\s\MYname	{First Aid}
+	\s\MYtext	{Spend 1 minute roleplaying ministering to your patient. At the end of this minute, if they have not already died, show this card to them. They are no longer wounded.}
+	\s\MYeffect	{You are no longer wounded. Wake up after 2 minutes.}
+	\s\MYnumber {7173}
+}
+
+\NEW{Abil}{\aTrump}{
+	\s\MYname	{Relieve from Duty}
+	\s\MYtext	{Use this ability to fire an officer from their position aboard TIS Chivalry.}
+	\s\MYeffect	{You are are hereby relieved from duty. When you return to the Ver homeworld you will have to find work elsewhere.}
+	\s\MYnumber {9221}
+}
+
+\NEW{Abil}{\aDefense}{
+    \s\MYname	{Protective Exoskeleton}
+    \s\MYtext	{You have a strong exoskeleton so you can add +2 to your base CR for defense. You don't need to show this card to use this ability.}
+    \s\MYeffect	{I have chitinous plates just beneath my skin that make me look hard to damage.}
+    \s\MYnumber {9253}
+}
   
-  \NEW{Abil}{\aDefense}{
-  \s\MYname	{Protective Exoskeleton}
-  \s\MYtext	{You have a strong exoskeleton so you can add +2 to your base CR for defense. You don't need to show this card to use this ability.}
-  \s\MYeffect	{}
-  }
+\NEW{Abil}{\aHack}{
+    \s\MYname	{Hack Terminal}
+    \s\MYtext	{This card represents your ability to hack. If someone catches you hacking into a terminal, show them the effect of this card.}
+    \s\MYeffect	{You see me fiddling with the computer terminal with intent to break in.}
+    \s\MYnumber {4135}
+}
   
-  \NEW{Abil}{\aHack}{
-  \s\MYname	{Hack Terminal}
-  \s\MYtext	{This card represents your ability to hack. If someone catches you hacking into a terminal, show them the effect of this card.}
-  \s\MYeffect	{You see me fiddling with the computer terminal with intent to break in.}
-  }
+\NEW{Abil}{\aSabotage}{
+    \s\MYname	{Sabotage Engine}
+    \s\MYtext	{This card represents your ability to sabotage. If someone catches you sabotaging an engine, show them the effect of this card.}
+    \s\MYeffect	{You see me fiddling with the engine with intent to break it.}
+    \s\MYnumber {0552}
+}
   
-  \NEW{Abil}{\aSabotage}{
-  \s\MYname	{Sabotage Engine}
-  \s\MYtext	{This card represents your ability to sabotage. If someone catches you sabotaging an engine, show them the effect of this card.}
-  \s\MYeffect	{You see me fiddling with the engine with intent to break it.}
-  }
+\NEW{Abil}{\aGhoul}{
+    \s\MYname	{Forcibly Make a Ghoul}
+    \s\MYtext	{This card represents your ability force a restrained, unwilling human to become a ghoul. If someone catches you doing this, show them the effect of this card.}
+    \s\MYeffect	{You see me forcibly making a human into a ghoul.}
+    \s\MYnumber {8745}
+}
   
-  \NEW{Abil}{\aGhoul}{
-  \s\MYname	{Forcibly Make a Ghoul}
-  \s\MYtext	{This card represents your ability force a restrained, unwilling human to become a ghoul. If someone catches you doing this, show them the effect of this card.}
-  \s\MYeffect	{You see me forcibly making a human into a ghoul.}
-  }
-  
-  \NEW{Abil}{\aRitual}{
-  	\s\MYname	{Performing a Ritual}
-  	\s\MYtext	{This card represents your ability to perform rituals for Yug Sothoth. If someone catches you performing a ritual show them the effect of this card.}
-  	\s\MYeffect	{You see me performing a ritual to something called Yug Sothoth.}
-  }  
+\NEW{Abil}{\aRitual}{
+	\s\MYname	{Performing a Ritual}
+	\s\MYtext	{This card represents your ability to perform rituals for Yug Sothoth. If someone catches you performing a ritual show them the effect of this card.}
+	\s\MYeffect	{You see me performing a ritual to something called Yug Sothoth.}
+	\s\MYnumber {4650}
+}  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

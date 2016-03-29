@@ -40,9 +40,9 @@
 
 \DECLARESUBTYPE{Sign}{Element}
 \PRESETS{Sign}{
-  \FD\MYloc	{\mylocation} %% real-space location
-  \FD\MYtext	{} %% text of sign
-  }
+  \FD\MYloc	{\mylocation}	%% real-space location
+  \FD\MYtext	{} 			%% text of sign
+I  }
 \POSTSETS{Sign}{
   \edef\mylocation{\MYloc}
   \protected@edef\@ownerstring{%
@@ -139,12 +139,14 @@
 	\s\MYname	{X Packet}
 	\s\MYloc	{}
 	\s\MYtext	{This is an Out of Game Packet for retrieval of relevant things}
+	\s\MYnumber	{3706}
 }
 
 \NEW{Sign}{\sBridgeC}{
 	\s\MYname	{The Bridge of the Chivalry}
 	\s\MYloc	{}
 	\s\MYtext	{A room with several consoles that detail the status of the ship}
+	\s\MYnumber	{8827}
 }
 
 
@@ -152,25 +154,28 @@
 	\s\MYname	{Communications Array Terminal (Logged In)}
 	\s\MYloc	{}
 	\s\MYtext	{Within are several files. Of particular note is a record of how high of an ALERT LEVEL was reached}
-
+	\s\MYnumber	{0124}
 }
 
 \NEW{Sign}{\sComArrayCLoggedOut}{
 	\s\MYname	{Communications Array Terminal (Logged Out)}
 	\s\MYloc	{}
 	\s\MYtext	{A monitor, a keyboard, and a dock for connecting portable devices. Within are all recorded external communications, such as ALERT LEVEL. If you have a login and password, you can read the next sheet. Hacking Dificulty 3 }
+	\s\MYnumber	{0638}
 }
 
 \NEW{Sign}{\sComArrayALoggedIn}{
 	\s\MYname	{Communications Array Terminal (Logged In)}
 	\s\MYloc	{}
 	\s\MYtext	{Within are several files. Of particular note is a record of how high of an ALERT LEVEL was reached}
+	\s\MYnumber	{3124}
 }
 
 \NEW{Sign}{\sComArrayALoggedOut}{
 	\s\MYname	{Communications Array Terminal (Logged Out)}
 	\s\MYloc	{}
 	\s\MYtext	{A monitor, a keyboard, and a dock for connecting portable devices. Within are all recorded external communications, such as ALERT LEVEL. If you have a login and password, you can read the next sheet. Hacking Dificulty 3}
+	\s\MYnumber	{8324}
 }
 
 
@@ -178,91 +183,106 @@
 	\s\MYname	{Crew Quarters}
 	\s\MYloc	{}
 	\s\MYtext	{Quarters for the Officers and Crew}
+	\s\MYnumber	{1156}
 }
 
 \NEW{Sign}{\sEngineC}{
 	\s\MYname	{The Engine Room of the Chivalry}
 	\s\MYloc	{}
 	\s\MYtext	{A room with several consoles that detail the status of the ship's engine}
+	\s\MYnumber	{4229}
 }
 
 \NEW{Sign}{\sStealth}{
 	\s\MYname	{Stealth Suite}
 	\s\MYloc	{}
 	\s\MYtext	{This is the cloaking device for the Chivalry}
+	\s\MYnumber	{2697}
 }
 
 \NEW{Sign}{\sStealthTerminalLoggedIn}{
-	\s\MYname	{Computer Terminal for the Chivalry Stealth Suit Logged In}
+	\s\MYname	{Computer Terminal for the Chivalry Stealth Suit (Logged In)}
 	\s\MYloc	{}
 	\s\MYtext	{Within are several files. Of note is the frequency manipulations required to maintain stealth. You may copy this by spending 1 minute accessing this terminal, followed by removing an item from the packet underneath this sign.}
 	\s\MYitems {multi{5}{\iStealthTech{}}}
+	\s\MYnumber	{1687}
 }
 
 \NEW{Sign}{\sStealthTerminalLoggedOut}{
-	\s\MYname	{Computer Terminal for Chivalry Stealth Suit Logged out}
+	\s\MYname	{Computer Terminal for Chivalry Stealth Suit (Logged Out)}
 	\s\MYloc	{}
 	\s\MYtext	{A monitor, a keyboard, and a dock for connecting portable devices. If you have a login and password, you can read the next sheet. Hacking Dificulty 3}
+	\s\MYnumber	{5785}
 }
 
 \NEW{Sign}{\sFount}{
 	\s\MYname	{Water Faucet}
 	\s\MYloc	{}
 	\s\MYtext	{A faucet from which clean water can be obtained with a \iTestTube{}. Hold the \iTestTube{} to the faucet for a 5 count.}
+	\s\MYnumber	{5275}
 }
 
 \NEW{Sign}{\sStationFourFixed}{
 	\s\MYname	{Operational Engine}
 	\s\MYloc	{}
 	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction. The engine is running smoothly.  You may not interact with this station unless you know otherwise.}
+	\s\MYnumber	{8348}
 }
 
 \NEW{Sign}{\sStationFourDiagnosed}{
 	\s\MYname	{Damaged Engine}
 	\s\MYloc	{}
 	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction.  Sparking dangerously the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. Upon diagnosing the problem you see that you need to find a \iCircuitBoard{}. Install the \iCircuitBoard{} by staying within one ZOC of the sign for 5 minutes with the help two other people.}
+	\s\MYnumber	{8218}
 }
 
 \NEW{Sign}{\sStationFourBroken}{
 	\s\MYname	{Damaged Engine}
 	\s\MYloc	{}
 	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction.  Sparking dangerously the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. If you have the Repair ability you may lift this sign and read the one below it.}
+	\s\MYnumber	{9886}
 }
 
 \NEW{Sign}{\sStationFourRunning}{
 	\s\MYname	{Engine}
 	\s\MYloc	{}
 	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction.  The engine is running smoothly. At T+2 Hrs remove this sign.  }
+	\s\MYnumber	{8351}
 }
 
 \NEW{Sign}{\sPillage}{
 	\s\MYname	{The Pillage}
 	\s\MYloc	{}
 	\s\MYtext	{A room with several consoles that detail the status of the ship}
+	\s\MYnumber	{5793}
 }
 
 \NEW{Sign}{\sEngineP}{
 	\s\MYname	{The Engine of the Pillage}
 	\s\MYloc	{}
 	\s\MYtext	{An engine with several consoles that detail the status of the ship's engine}
+	\s\MYnumber	{0163}
 }
 
 \NEW{Sign}{\sControlP}{
 	\s\MYname	{Control Panel}
 	\s\MYloc	{}
 	\s\MYtext	{Controls for the Pillage, if you are a Veran Officer you have permission to use these, Otherwise you need the \iCaptainRing{} for override.}
+	\s\MYnumber	{1702}
 }
 
 \NEW{Sign}{\sRaid}{
 	\s\MYname	{The Raid}
 	\s\MYloc	{}
 	\s\MYtext	{A room with several consoles that detail the status of the ship's engine}
+	\s\MYnumber	{3185}
 }
 
 \NEW{Sign}{\sEngineR}{
-	\s\MYname	{The Engineof the Raid}
+	\s\MYname	{The Engine of the Raid}
 	\s\MYloc	{}
 	\s\MYtext	{an Engine with several consoles that detail the status of the ship's engine}
+	\s\MYnumber	{2216}
 }
 
 
@@ -270,60 +290,70 @@
 	\s\MYname	{Control Panel}
 	\s\MYloc	{}
 	\s\MYtext	{Controls for the Raid, if you are a Veran Officer you have permission to use these, Otherwise you need the \iCaptainRing{} for override.}
+	\s\MYnumber	{5803}
 }
 
 \NEW{Sign}{\sStationPFixed}{
 	\s\MYname	{Operational Engine}
 	\s\MYloc	{}
 	\s\MYtext	{This device powers the Pillage, allowing the captain to control its speed and direction. The engine is running smoothly.  You may not interact with this station unless you know otherwise.}
+	\s\MYnumber	{2732}
 }
 
 \NEW{Sign}{\sStationPDiagnosed}{
 	\s\MYname	{Damaged Engine}
 	\s\MYloc	{}
 	\s\MYtext	{This device powers the Pillage, allowing the captain to control its speed and direction.  Sparking dangerously the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. Upon diagnosing the problem you see that you need to find a \iCircuitBoard{}. Install the \iCircuitBoard{} by staying within one ZOC of the sign for 5 minutes with the help two other people.}
+	\s\MYnumber	{6831}
 }
 
 \NEW{Sign}{\sStationPBroken}{
 	\s\MYname	{Damaged Engine}
 	\s\MYloc	{}
 	\s\MYtext	{This device powers the Pillage, allowing the captain to control its speed and direction.  Sparking dangerously the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. If you have the Repair ability you may lift this sign and read the one below it.}
+	\s\MYnumber	{6322}
 }
 
 \NEW{Sign}{\sStationPRunning}{
 	\s\MYname	{Engine}
 	\s\MYloc	{}
 	\s\MYtext	{This device powers the Pillage, allowing the captain to control its speed and direction.  The engine is running smoothly.   }
+	\s\MYnumber	{2741}
 }
 
 \NEW{Sign}{\sStationRFixed}{
 	\s\MYname	{Operational Engine}
 	\s\MYloc	{}
 	\s\MYtext	{This device powers the Raid, allowing the captain to control its speed and direction. The engine is running smoothly.  You may not interact with this station unless you know otherwise.}
+	\s\MYnumber	{5814}
 }
 
 \NEW{Sign}{\sStationRDiagnosed}{
 	\s\MYname	{Damaged Engine}
 	\s\MYloc	{}
 	\s\MYtext	{This device powers the Raid, allowing the captain to control its speed and direction.  Sparking dangerously the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. Upon diagnosing the problem you see that you need to find a \iCircuitBoard{}. Install the \iCircuitBoard{} by staying within one ZOC of the sign for 5 minutes with the help two other people.}
+	\s\MYnumber	{4791}
 }
 
 \NEW{Sign}{\sStationRBroken}{
 	\s\MYname	{Damaged Engine}
 	\s\MYloc	{}
 	\s\MYtext	{This device powers the Raid, allowing the captain to control its speed and direction.  Sparking dangerously the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. If you have the Repair ability you may lift this sign and read the one below it.}
+	\s\MYnumber	{9844}
 }
 
 \NEW{Sign}{\sStationRRunning}{
 	\s\MYname	{Engine}
 	\s\MYloc	{}
 	\s\MYtext	{This device powers the Raid, allowing the captain to control its speed and direction.  The engine is running smoothly.   }
+	\s\MYnumber	{2748}
 }
 
 \NEW{Sign}{\sBioLab}{
 	\s\MYname	{The Biological Laboratory}
 	\s\MYloc	{}
 	\s\MYtext	{A room full of bits of technological components and tools all seemingly geared toward dealing with blood in some way}
+	\s\MYnumber	{0190}
 }
 
 \NEW{Sign}{\sBloodAnalyzer}{
@@ -331,6 +361,7 @@
 	\s\MYloc	{}
 	\s\MYtext	{A machine made to analyze blood. In order to analyze the blood you have collected you must insert the blood into the analyzer and conduct a 15 count (note this is interruptible.) 
 Upon successful completion destroy the blood item card.}
+	\s\MYnumber	{5314}
 }
 
 \NEW{Sign}{\sTestTubeRack}{
@@ -338,60 +369,70 @@ Upon successful completion destroy the blood item card.}
 	\s\MYloc	{}
 	\s\MYitems	{\multi{20}{\iTestTube{}}}
 	\s\MYtext	{Rack with many TestTubes, You can take ONE ONCE EVERY 30 SEC }
+	\s\MYnumber	{0708}
 }
 
 \NEW{Sign}{\sBioLabLock}{
 	\s\MYname	{Specimen Containment Field}
 	\s\MYloc	{}
 	\s\MYtext	{The double fields prevent the passage of any living cells and require the activation of the lever to disengage.}
+	\s\MYnumber	{2939}
 }
 
 \NEW{Sign}{\sBioLabLever}{
 	\s\MYname	{Lever for Specimen Containment Field}
 	\s\MYloc	{}
 	\s\MYtext	{This lever will deactivate the Specimen Containment Field if it comes into contact with the control rod.}
+	\s\MYnumber	{4728}
 }
 
 \NEW{Sign}{\sBrainDead}{
 	\s\MYname	{Stasis Pods}
 	\s\MYloc	{}
 	\s\MYtext	{Upon looking closer, all of the stasis pods show that the human victims have been rendered brain dead. If you have a Kappa packet, open it.}
+	\s\MYnumber	{3284}
 }
 
 \NEW{Sign}{\sStasisPods}{
 	\s\MYname	{Stasis Pods}
 	\s\MYloc	{}
 	\s\MYtext	{There is a hidden compartment with hundreds of stasis pods, most containing bodies. To take a closer look, wait with your hand on this sign for two minutes and then lift up this sign.}
+	\s\MYnumber	{5333}
 }
 
 \NEW{Sign}{\sHiddenWall}{
 	\s\MYname	{Chivalry Painting}
 	\s\MYloc	{}
 	\s\MYtext	{There is a grand painting of the Chivalry against the backdrop of a nebula on this wall.}
+	\s\MYnumber	{6358}
 }
 
 \NEW{SignTiny}{\sBiolockedSwitch}{
 	\s\MYname	{Switch with Bio Reader}
 	\s\MYloc	{}
 	\s\MYtext	{This switch requires the blood of a Veran Officer to activate if done look underneath this sign.}
+	\s\MYnumber	{3802}
 }
 
 \NEW{SignTiny}{\sBiolockedSwitchActive}{
-	\s\MYname	{Switch with Bio Reader Activated}
+	\s\MYname	{Switch with Bio Reader (Activated)}
 	\s\MYloc	{}
 	\s\MYtext	{Upon activation the wall with the painting has a door open, lift the sign with the painting. Deactivation of the switch puts the painting back into place and requires no blood to trigger.}
+	\s\MYnumber	{6364}
 }
 
 \NEW{Sign}{\sAnodyne}{
 	\s\MYname	{The HMS Anodyne}
-	\s\MYloc	{}
+	\s\MYloc	{3rd Floor}
 	\s\MYtext	{The {\it HMS Anodyne}, a small Frith police cruiser.}
+	\s\MYnumber	{8570}
 }
 
 \NEW{Sign}{\sAnodyneScan}{
 	\s\MYname	{Ship Scanner}
 	\s\MYloc	{}
 	\s\MYtext	{Prototype Scanners using cutting edge technology}
+	\s\MYnumber	{7903}
 }
 
 \NEW{Sign}{\sScanTerminalLoggedIn}{
@@ -399,12 +440,14 @@ Upon successful completion destroy the blood item card.}
 	\s\MYloc	{}
 	\s\MYtext	{Within are several files. Of particular note is a program with a special algorithm for attmepting to find stealthed ships. You may copy this by spending 1 minute accessing this terminal, followed by removing an item from the packet underneath this sign.}
 	\s\MYitems {multi{5}{\iScanTech{}}}
+	\s\MYnumber	{4320}
 }
 
 \NEW{Sign}{\sScanTerminalLoggedOut}{
 	\s\MYname	{Computer Terminal for Anodyne Ship Scanner (Logged Out)}
 	\s\MYloc	{}
 	\s\MYtext	{A monitor, a keyboard, and a dock for connecting portable devices. If you have a login and password, you can read the next sheet. Hacking Difficulty 3}
+	\s\MYnumber	{5347}
 }
 
 
@@ -412,6 +455,7 @@ Upon successful completion destroy the blood item card.}
 	\s\MYname	{Computer Terminal for Uploading Evidence}
 	\s\MYloc	{}
 	\s\MYtext	{A monitor, a keyboard, and a dock for connecting portable devices. If you have a login and password, you can read the next sheet. Hacking Difficulty 3}
+	\s\MYnumber	{9957}
 }
 
 \NEW{Label}{\sAnodyneTerminalOne}{
@@ -493,7 +537,6 @@ Upon successful completion destroy the blood item card.}
 	}
 }
 
-
 \NEW{LabelSmall}{\sEvidenceEnvelopeOne}{
 	\s\MYname	{Evidence Type 1}
 	\s\MYloc	{}
@@ -570,29 +613,34 @@ Upon successful completion destroy the blood item card.}
 	\s\MYname	{Locked Compartment}
 	\s\MYloc	{}
 	\s\MYtext	{A compartment locked by a numeric keypad. You can only open this if you know the unlock code.}
+	\s\MYnumber	{3302}
 }
 
 \NEW{Sign}{\sLSRepair}{
 	\s\MYname	{Requirements to restart Life Support}
 	\s\MYloc	{}
 	\s\MYtext	{Within this room are four tasks required to by pass the safety mechanisms around the parts to the restart key, each must be at least attempted by a different person per task. Taskes must be done one at a time. Once all tasks are complete place the parts thus retreived end into end and touch to this sign for a 5 count}
+	\s\MYnumber	{1767}
 }
 
 \NEW{Sign}{\sLSTaskOne}{
 	\s\MYname	{Task One}
 	\s\MYloc	{}
 	\s\MYtext	{The first item needed to fix the Life Support requires undoing each of the knots protecting it, cutting the rope is not allowed }
+	\s\MYnumber	{6890}
 }
 
 \NEW{Sign}{\sLSTaskTwo}{
 	\s\MYname	{Task Two}
 	\s\MYloc	{}
 	\s\MYtext	{The second item needed to fix the Life Support requires removal of the rubber bands, breaking a band suffers a 30 second penalty}
+	\s\MYnumber	{2087}
 	}
 \NEW{Sign}{\sLSTaskThree}{
 	\s\MYname	{Task Three}
 	\s\MYloc	{}
 	\s\MYtext	{The Third item needed to fix the Life Support requires usage of the belts provided to 'fish' the part from one end of a narrow area demarked with tape on the ground. The person must be sitting on the X marked on the floor during the task.}
+	\s\MYnumber	{4335}
 }
 \NEW{Sign}{\sLSTaskFour}{
 	\s\MYname	{Task Four}
@@ -628,6 +676,7 @@ Upon successful completion destroy the blood item card.}
 			before you lose your
 			
 			support of the lively.}
+	\s\MYnumber	{9256}			
 }
 
 \NEW{Sign}{\sVoneTerminalLoggedOut}{
@@ -635,6 +684,7 @@ Upon successful completion destroy the blood item card.}
 	\s\MYloc	{}
 	\s\MYtext	{A monitor, a keyboard, and a dock for connecting portable devices. If you have a login and password, you can read the next sheet. Hacking Dificulty 2}
 	\s\MYitems{\iBlackMailD{}}
+	\s\MYnumber	{4340}	
 }
 
 \NEW{Sign}{\sVoneTerminalLoggedIn}{
@@ -648,6 +698,7 @@ Upon successful completion destroy the blood item card.}
 	\s\MYname	{Computer Terminal for Markus de Asad (Logged Out)}
 	\s\MYloc	{}
 	\s\MYtext	{A monitor, a keyboard, and a dock for connecting portable devices. If you have a login and password, you can read the next sheet. Hacking Dificulty 2}
+	\s\MYnumber	{1577}	
 }
 
 \NEW{Sign}{\sVtwoTerminalLoggedIn}{
@@ -661,6 +712,7 @@ Upon successful completion destroy the blood item card.}
 	\s\MYname	{Computer Terminal for Karl das Scherer (Logged Out)}
 	\s\MYloc	{}
 	\s\MYtext	{A monitor, a keyboard, and a dock for connecting portable devices. If you have a login and password, you can read the next sheet. Hacking Dificulty 2}
+	\s\MYnumber	{3832}
 }
 
 \NEW{Sign}{\sVthreeTerminalLoggedIn}{
@@ -674,18 +726,21 @@ Upon successful completion destroy the blood item card.}
 	\s\MYname	{Centrifuge (Broken)}
 	\s\MYloc	{}
 	\s\MYtext	{A broken centrifuge. If you manage to fix this, tear off this sheet.}
+	\s\MYnumber	{7932}
 }
 
 \NEW{Sign}{\sCentrifuge}{
 	\s\MYname	{Centrifuge}
 	\s\MYloc	{}
 	\s\MYtext	{A centrifuge.}
+	\s\MYnumber	{0253}
 }
 
 \NEW{Sign}{\sLockedBox}{
 	\s\MYname	{Isotope Storage Box (Closed)}
 	\s\MYloc	{}
 	\s\MYtext	{This box is locked tight. To open it, attack it with a combined CR of 6. Then tear off this sheet.}
+	\s\MYnumber	{3326}
 }
 
 \NEW{Sign}{\sBox}{
@@ -693,6 +748,7 @@ Upon successful completion destroy the blood item card.}
 	\s\MYloc	{}
 	\s\MYtext	{A box made to store isotopes. To remove an isotope, put your hand on the box for an interruptible 5-count. You may only take one out every 15 minutes.}
 	\s\MYitems {\multi{3}{\iIsotope{}}}
+	\s\MYnumber	{5889}	
 }
 
 \NEW{Sign}{\sWrenchSign}{
@@ -700,6 +756,7 @@ Upon successful completion destroy the blood item card.}
 	\s\MYloc	{}
 	\s\MYtext	{A toolbox full of wrenches. To take one out, put your hand on this sign for 30 seconds. You may take one out every 15 minutes.}
 	\s\MYitems {\multi{3}{\iWrench{}}}
+	\s\MYnumber	{9477}	
 }
 
 \NEW{Sign}{\sChemVRack}{
@@ -707,6 +764,7 @@ Upon successful completion destroy the blood item card.}
 	\s\MYloc	{}
 	\s\MYtext	{A rack of test tubes of \iChemicalV{}. To take one out, put your hand on this sign for 30 seconds. You may take one out every 15 minutes.}
 	\s\MYitems {\multi{3}{\iChemicalV{}}}
+	\s\MYnumber	{9992}
 }
 
 \NEW{Sign}{\sWireSign}{
@@ -714,6 +772,7 @@ Upon successful completion destroy the blood item card.}
 	\s\MYloc	{}
 	\s\MYtext	{A box of miscellaneous wires. To take a bundle out, put your hand on this sign for 30 seconds. You may take one bundle out every 15 minutes.}
 	\s\MYitems {\multi{3}{\iWires{}}}
+	\s\MYnumber	{8458}
 }
 
 \NEW{Sign}{\sYPack}{
@@ -722,6 +781,7 @@ Upon successful completion destroy the blood item card.}
 	\s\MYtext	{This is an Out of Game Packet for retrieval of relevant things}
 	\s\MYitems {\multi{6}{\iInvisibilityCloak{}\iCRUpPotion{}\iHealthPotion{}\iBlackMailD{}}}
 	\s\MYabils {\multi{6}{\aOpenWay{}\aHolyHands{}}}
+	\s\MYnumber	{0267}
 }
 
 
