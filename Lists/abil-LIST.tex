@@ -47,7 +47,7 @@
 
 \NEW{Abil}{\aRepair}{
 	\s\MYname	{Engineering Knowledge}
-	\s\MYtext	{You have the knowldge to be able to repair complex machanical devices}
+	\s\MYtext	{You have the knowledge to be able to repair complex mechanical devices}
 	\s\MYeffect	{I know how to fix machines}
 	\s\MYnumber {7690}	
 }
@@ -74,7 +74,7 @@
 %% Basic DarkWater-style Martial Attack abilities
 
 
-%% Everyone has these 3
+%% Everyone has these 4
 \NEW{Abil}{\aAssist}{
     \s\MYname	{Assist}
     \s\MYtext	{You can assist someone else's attack.  You must be
@@ -101,11 +101,16 @@
     \s\MYeffect	{I wound you.}
 	\s\MYnumber {7188}    
 }
-
+\NEW{Abil}{\aKillingBlow}{
+    \s\MYname	{Killing Blow}
+    \s\MYtext	{You can perform a killing blow on someone else after an audible, interruptible 10-count. The target must be helpless (unconscious, wounded, or restrained).}
+    \s\MYeffect	{I perform a killing blow on you after a 10-count. ``Killing blow 1, killing blow 2, ..." You are dead.}
+	\s\MYnumber {1294}		
+}
 
 %% the \basecombat macro can be prepended to the Char abils list
 %% (in char-LIST.tex)
-\def\basecombat{\aKnockOut{}\aWound{}\aAssist{}}
+\def\basecombat{\aKnockOut{}\aWound{}\aAssist{}\aKillingBlow{}}
 
 %% only some people have these
 \NEW{Abil}{\aDisarm}{
@@ -137,7 +142,6 @@
 	\s\MYnumber {0029}		
 }
   
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NEW{Abil}{\aGamma}{
