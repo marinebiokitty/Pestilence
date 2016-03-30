@@ -219,26 +219,38 @@ I  }
 \NEW{Sign}{\sStationFourDiagnosed}{
 	\s\MYname	{Damaged Engine}
 	\s\MYloc	{}
-	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction.  Sparking dangerously the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. Upon diagnosing the problem you see that you need to find a \iCircuitBoard{}. Install the \iCircuitBoard{} by staying within one ZOC of the sign for 5 minutes with the help two other people.}
+	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction.  Sparking dangerously, the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. Upon diagnosing the problem you see that you need to find a \iCircuitBoard{}. Install the \iCircuitBoard{} by staying within one ZOC of the sign for 5 minutes with the help two other people.}
 }
 
 \NEW{Sign}{\sStationFourBroken}{
 	\s\MYname	{Damaged Engine}
 	\s\MYloc	{}
-	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction.  Sparking dangerously the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. If you have the Repair ability you may lift this sign and read the one below it.}
+	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction.  Sparking dangerously, the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. If you have the Repair ability you may lift this sign and read the one below it.}
 }
 
-\NEW{Sign}{\sStationFourRunning}{
-	\s\MYname	{Engine}
+\NEW{Sign}{\sEngineAFixed}{
+	\s\MYname	{Operational Engine}
 	\s\MYloc	{}
-	\s\MYtext	{This device powers the Chivalry, allowing the captain to control its speed and direction. The engine is running smoothly. At T+2 Hrs remove this sign.  }
+	\s\MYtext	{This device powers the Anodyne, allowing the captain to control its speed and direction. The engine is running smoothly.  You may not interact with this station unless you know otherwise.}
+}
+
+\NEW{Sign}{\sEngineADiagnosed}{
+	\s\MYname	{Damaged Engine}
+	\s\MYloc	{}
+	\s\MYtext	{This device powers the Anodyne, allowing the captain to control its speed and direction.  Sparking dangerously, the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. Upon diagnosing the problem you see that you need to find a \iCircuitBoard{}. Install the \iCircuitBoard{} by staying within one ZOC of the sign for 5 minutes with the help two other people.}
+}
+
+\NEW{Sign}{\sEngineABroken}{
+	\s\MYname	{Damaged Engine}
+	\s\MYloc	{}
+	\s\MYtext	{This device powers the Anodyne, allowing the captain to control its speed and direction.  Sparking dangerously, the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. If you have the Repair ability you may lift this sign and read the one below it.}
 }
 
 \NEW{Sign}{\sShuttleBay}{
 	\s\MYname	{Shuttle Bay}
 	\s\MYloc	{}
 	\s\MYtext	{The \emph{Chivalry}'s shuttle bay, where the \emph{Raid} and the \emph{Pillage} are normally berthed.}
-}
+	}
 
 \NEW{Sign}{\sPillage}{
 	\s\MYname	{The Pillage}
@@ -294,12 +306,6 @@ I  }
 	\s\MYtext	{This device powers the Pillage, allowing the captain to control its speed and direction.  Sparking dangerously the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. If you have the Repair ability you may lift this sign and read the one below it.}
 }
 
-\NEW{Sign}{\sStationPRunning}{
-	\s\MYname	{Engine}
-	\s\MYloc	{}
-	\s\MYtext	{This device powers the Pillage, allowing the captain to control its speed and direction.  The engine is running smoothly.   }
-}
-
 \NEW{Sign}{\sStationRFixed}{
 	\s\MYname	{Operational Engine}
 	\s\MYloc	{}
@@ -316,12 +322,6 @@ I  }
 	\s\MYname	{Damaged Engine}
 	\s\MYloc	{}
 	\s\MYtext	{This device powers the Raid, allowing the captain to control its speed and direction.  Sparking dangerously the engine seems to be about to fail completely. You may not interact with this station unless you know otherwise. If you have the Repair ability you may lift this sign and read the one below it.}
-}
-
-\NEW{Sign}{\sStationRRunning}{
-	\s\MYname	{Engine}
-	\s\MYloc	{}
-	\s\MYtext	{This device powers the Raid, allowing the captain to control its speed and direction.  The engine is running smoothly.   }
 }
 
 \NEW{Sign}{\sBioLab}{
@@ -394,6 +394,18 @@ Upon successful completion destroy the blood item card.}
 	\s\MYtext	{The {\it HMS Anodyne}, a small Frith police cruiser.}
 }
 
+\NEW{Sign}{\sAnodyneBridge}{
+	\s\MYname	{The HMS Anodyne Bridge}
+	\s\MYloc	{3rd Floor}
+	\s\MYtext	{The bridge of the {\it HMS Anodyne}.}
+}
+
+\NEW{Sign}{\sAnodyneEngineRoom}{
+	\s\MYname	{The HMS Anodyne Engine Room}
+	\s\MYloc	{3rd Floor}
+	\s\MYtext	{The {\it HMS Anodyne}'s engine room.}
+}
+
 \NEW{Sign}{\sAnodyneScan}{
 	\s\MYname	{Ship Scanner}
 	\s\MYloc	{}
@@ -403,7 +415,7 @@ Upon successful completion destroy the blood item card.}
 \NEW{Sign}{\sScanTerminalLoggedIn}{
 	\s\MYname	{Computer Terminal for Anodyne Ship Scanner (Logged In)}
 	\s\MYloc	{}
-	\s\MYtext	{Within are several files. Of particular note is a program with a special algorithm for attmepting to find stealthed ships. You may copy this by spending 1 minute accessing this terminal, followed by removing an item from the packet underneath this sign. The item is infinite in supply, if it is out please ask a GM. }
+	\s\MYtext	{Within are several files. Of particular note is a program with a special algorithm for attempting to find stealthed ships. You may copy this by spending 1 minute accessing this terminal, followed by removing an item from the packet underneath this sign. The item is infinite in supply, if it is out please ask a GM. }
 	\s\MYitems {\multi{5}{\iScanTech{}}}
 }
 
