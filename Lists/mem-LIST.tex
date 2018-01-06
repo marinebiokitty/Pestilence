@@ -79,93 +79,136 @@
   \s\MYtext	{This is a Test of a fold-n-staple memory packet}
   }
   
-  \NEW{MemFold}{\mHybrid}{
-  \s\MYname	{Open if you ingest Serum (8703)}
-  \s\MYtext	{Your $\gamma$ score is now 4.}
+%Chemists recognizing things
+
+  \NEW{MemEnvelope}{\mPowderRecognize}{
+  \s\MYname	{Open if you see item (0012)}
+  \s\MYtext	{A curious potion. You smell some familiar herbs in them. Wormwood, perhaps? You can spend a minute studying it in order to gain the Make Potion ability card}
   }
   
-  \NEW{MemFold}{\mYogName}{
-  \s\MYname	{Open if you say the name of Yug-Sothoth (and not a euphemism) outside of a ritual. Repeat the effects each time you do so after effects end.}
-  \s\MYtext	{Yug-Sothoth has "gifted" you with the knowledge of how it feels to have boiling oil poured over your hands. -2 CR for 15 minutes.}
+  \NEW{MemFold}{\mFakeRecognize}{
+  \s\MYname	{Open if you see item (0013), (0014) or (0015)}
+  \s\MYtext	{It's a useless mix of gruel and painkillers}
+  }
+
+%Plaguebearer's sacrifice results
+
+  \NEW{MemEnvelope}{\mSacrificeSuccess}{
+  	\s\MYname	{Open if ritual sacrifice is completed and its target had gamma score of 2}
+  	\s\MYtext	{You feel the power surging back to you. Gain the Faith Healing, Return to Earth and Salvation ability cards. When you are bound to a body, you have +4 CR}
+  	\s
   }
   
-  \NEW{MemFold}{\mYogPlead}{
-  	\s\MYname	{Open if you see badge number 97254 }
-  	\s\MYtext	{This is a fellow worshiper of Yug-Sothoth.}
+  \NEW{MemFold}{\mSacrificeFail}{
+  	\s\MYname	{Open if ritual sacrifice is completed and its target had gamma score of 1}
+  	\s\MYtext	{You feel a spark of energy and then nothing. What a waste. You need a better sacrifice.}
   }
   
-  \NEW{MemFold}{\mYogPilot}{
-  	\s\MYname	{Open if you see badge number 84785 }
-  	\s\MYtext	{This is a fellow worshiper of Yug-Sothoth. }
+  \NEW{MemEnvelope}{\mSacrificeMistake}{
+  	\s\MYname	{Open if ritual sacrifice is completed and its target had gamma score of 3}
+  	\s\MYtext	{They took your \cShaman{\parent}! You feel the healing power surge through you once again, but your anger and will are so strong no magic in the known world can force you to heal. Gain the Return to Earth ability card. When bound to a body, you have +4 CR}
   }
   
-  \NEW{MemFold}{\mYogRasputin}{
-  	\s\MYname	{Open if you see badge number 64825}
-  	\s\MYtext	{This is a fellow worshiper of Yug-Sothoth.}
+%Rebel's premonitions
+  
+  \NEW{MemFold}{\mWarning}{
+  	\s\MYname	{Open when you see \cApprentice{}}
+  	\s\MYtext	{That headache again! Is \cApprentice{} in danger? Or is \cApprentice{\they} planning something nefarious? You don't want to take risks if it is the former. Tell \cApprentice{} to be careful and ask them to cut out whatever evil they might be planning.}
   }
   
-   \NEW{MemFold}{\mLoveLetter}{
-  	\s\MYname	{Open if you receive item (7742). }
-  	\s\MYtext	{What?! Love? This is not love! This is sin! Approach Julie about this sin and tell her that you cannot ever be together, and that you do not love her in that way, but that you love her as Jesus loves sinners. Offer to help bring her to the Lord. This will count as a good work.}
+%Elder's alcohol problem
+
+  \NEW{MemFold}{\mAlcoholism}{
+  	\s\MYname	{Open t + 1 hour into game}
+  	\s\MYtext	{You don't like to think about it much, but ever since your miserable liar of a lover left, you developed a taste for good old firewater. Not the cheap stuff, but the fine ones. You're a connoisseur, not an alcoholic. Still, you get these cravings every now and then. 
+  	
+  	  If you don't consume alcohol in the next 30 minutes, you will receive -1 hit to CR for the rest of game.}
   }
   
-  
-  \NEW{MemFold}{\mNoVerBlood}{
-  	\s\MYname	{Open if you do not consume Ver blood by t + 2 hours.}
-  	\s\MYtext	{You feel weak. Subtract one from your CR.}
+%Com with the army
+
+    \NEW{MemFold}{\mArmyNote}{
+  	\s\MYname	{Open t + 2 hours into game. If you are killed beforehand, pass this onto a random PC}
+  	\s\MYtext	{You just received communication from the army. They've heard about the outbreak in the shelter, and they will not evacuate survivors before shelling if more than half the people within the shelter are infected. Shelling will commence in an hour. You have to restore the health of the shelter before that if you want the army to rescue you!}
   }
   
-  \NEW{MemFold}{\mVerBlood}{
-  	\s\MYname	{Open if you did not consume Ver blood by t + 2 hours, but consume it after that time.}
-  	\s\MYtext	{You feel stronger. Add +1 to your CR.}
-  }
-  
-  \NEW{MemFold}{\mNoKineBlood}{
-  	\s\MYname	{Open if you do not consume Kine blood by t + 2 hours.}
-  	\s\MYtext	{You feel weak. Subtract one from your CR.}
-  }
-  
-  \NEW{MemFold}{\mKineBlood}{
-  	\s\MYname	{Open if you did not consume Kine blood by t + 2 hours, but consume it after that time.}
-  	\s\MYtext	{You feel stronger. Add +1 to your CR.}
-  }  
-  
-  
-  
-  \NEW{MemFold}{\mNoVerBloodJulie}{
-  	\s\MYname	{Open if you do not consume Ver blood by t + 2 hours.}
-  	\s\MYtext	{You feel weak. Subtract one from your CR. Disregard if you are a Ver.}
-  }
-  
-  \NEW{MemFold}{\mVerBloodJulie}{
-  	\s\MYname	{Open if you did not consume Ver blood by t + 2 hours, but consume it after that time.}
-  	\s\MYtext	{You feel stronger. Add +1 to your CR. Disregard if you are a Ver.}
-  }
-  
-  \NEW{MemFold}{\mNoVerBloodR}{
-  	\s\MYname	{Open if you do not consume Ver blood by t + 2 hours.}
-  	\s\MYtext	{You do not feel yourself weaken. It seems that you don't require consuming Ver blood to avoid weakness.}
-  }
-  
-  \NEW{MemFold}{\mAlpha}{
-  	\s\MYname	{Alpha: Open if you you are instructed to do so.}
-  	\s\MYtext	{The air is thin and you struggle to breathe. Subtract 1 from your CR.}
-  }
-  
-   \NEW{MemFold}{\mSpiteGhoul}{
-  	\s\MYname	{Open if you are made into a ghoul.}
-  	\s\MYtext	{This is the exact opposite of what you wanted! But you shouldn't despair. There are other ghouls on this ship who have been that way much longer than you. Perhaps one of them knows something about how to be free of the Ver.}
-  }
-  
-  \NEW{MemFold}{\mPleadGhoul}{
-  	\s\MYname	{Open if you are made into a ghoul.}
-  	\s\MYtext	{At last! You have been made into a ghoul! You now feel a strong sense of loyalty towards whoever turned you.}
-  }
-  
-  \NEW{MemFold}{\mKappa}{
-  	\s\MYname	{Kappa: Open if directed to do so.}
-  	\s\MYtext	{You reel back in horror. Your parents are in two of the hundreds of stasis pods, brain-dead and unresponsive. You are enraged, increasing your CR by 1 for the rest of game.}
-  }
+%Outsider's belief packet
+    \NEW{MemCover}{\mBelief}{
+      \s\MYname	{Belief and Skepticism}
+      \s\MYmems	{\mBeliefOne{}\mBeliefTwo{}\mBeliefThree{}\mBeliefFour{}\mBeliefFive{}\mBeliefSix{}\mBeliefSeven{}\mBeliefEight{}\mBeliefNine{}\mBeliefTen{}\mBeliefEleven{}\mBeliefTwelve{}}
+      }
+    
+    \NEW{MemPage}{\mBeliefOne}{
+      \s\MYname	{Open this if your belief score reaches 1}
+      \s\MYtext	{What a funny little town. You're not sure how to explain what you saw, and like any good scientist, you are not content in letting mysteries remain mysteries. Perhaps studying the "supernatural" more deeply will give you greater insight to the town and the source of the plague}
+      }
+    
+    \NEW{MemPage}{\mBeliefTwo}{
+      \s\MYname	{Open this if your belief score reaches 2}
+      \s\MYtext	{You had a dream the night before the plague. Which is rather odd, since you're fairly certain you were bleeding to death that same night. Perhaps it had been a near-death experience. The warm darkness, the softness of your childhood bed, and the smell of old books, all gone in a sudden burst of light--it does sound like a near-death experience. \cRebel{} must have some incredible healing talents that you are not aware of. Perhaps you should inquire about it.}
+      }
+    
+    \NEW{MemPage}{\mBeliefThree}{
+      \s\MYname	{Open this if your belief score reaches 3}
+      \s\MYtext	{You recall hearing of earth spirits that once nourished the earth. The townsfolk used to sacrifice bulls and humans to the earth to heal their sick. You dismissed it as superstition at first, but recent events make you wonder. Could this disease be a revenge of the land? Sounds terribly ridiculous when you put it that way. You are a doctor, not an environmentalist. You can't fix the land right now even if it is the cause of the plague. Best leave that to the army. For now, you'll focus on helping the infected.}
+      }
+    
+    \NEW{MemPage}{\mBeliefFour}{
+      \s\MYname	{Open this if your belief score reaches 4}
+      \s\MYtext	{You have a broad, rigorous mind, but all these inexplicable happenings are stretching it quite thin. What would you not do for some good old whiskey?
+      
+      Due to stress, you are a bit more irritable than usual. Complain about the town to three people}
+      }
+    
+    \NEW{MemPage}{\mBeliefFive}{
+      \s\MYname	{Open this if your belief score reaches 5}
+      \s\MYtext	{This \cPlaguebearer{} child strikes you as rather odd. You feel a kindred spirit within her, as if \cPlaguebearer{\they} were a \cPlaguebearer{\sibling}. It can't be true. You're an only child. The child is likely using some form of hypnotism, or perhaps even magic. You're rational, not obstinate. You might be willing to accept the supernatural if you see more proof. But until then, keep an eye on the child.}
+      }
+    
+    \NEW{MemPage}{\mBeliefSix}{
+      \s\MYname	{Open this if your belief score reaches 6}
+      \s\MYtext	{So many people in the shelter make the hair stand on your skin, even \cRebel{}. Only \cCon{} and \cApprentice{} feel normal.}
+      }
+    
+    \NEW{MemPage}{\mBeliefSeven}{
+      \s\MYname	{Open this if your belief score reaches 7}
+      \s\MYtext	{Fuck this. You need a drink.
+      
+      Consume every alcoholic substance on your person. Even the rubbing alcohol. Especially the sweet, 97 percent proof rubbing alcohol.}
+      }
+    
+    \NEW{MemPage}{\mBeliefEight}{
+      \s\MYname	{Open this if your belief score reaches 8}
+      \s\MYtext	{It just keeps coming. What the hell is going on? You never asked for this. You only wanted answers. Are there answers on the other side? Or is there simply madness?}
+      }
+    
+    \NEW{MemPage}{\mBeliefNine}{
+      \s\MYname	{Open this if your belief score reaches 9}
+      \s\MYtext	{You remember now. You dreamed of Death that night. You were in the applewood kitchen from your childhood, tinkering with your grandmother's samovar, trying to recall the taste of black tea and blueberry jam on a winter evening. Death called it a gift. You were his enemy for so long, yet he held no grudges. He was gracious enough to let you have this moment before you had to leave with him. You refused to die, but he only laughed. You cannot recall his appearance or if he even had a body to laugh with. You simply remember the twisting, nails-in-the-heart feeling of being laughed at--an all too familiar feeling that set your mind on fire.
+      
+      A flash of light broke the scene. You were sinking into warm sand, yet you felt no panic. The earth was a goose down blanket, and the wind, a lover's voice. You closed your heavy eyes, and woke up with \cRebel{} by your side.
+      
+      Were you truly dead? Did you defeat Death somehow? Did \cRebel{} help you? Your wounds closed awfully fast, and the recent events are forcing you to consider resurrection as a possibility. What has become of you? What is going on? So many others have died and not come back. Why you?}
+      }
+    
+    \NEW{MemPage}{\BeliefTen}{
+      \s\MYname	{Open this if your belief score reaches 10}
+      \s\MYtext	{Hypnotism, resurrection, spirits and plagues. It makes no sense. But it has to. You're a seeker of truth. But perhaps you need time. Perhaps this is too much. Perhaps you need a different place to process this, somewhere that isn't surrounded by death and disease. Yet, yet...}
+      }
+      
+    \NEW{MemPage}{\mBeliefEleven}{
+      \s\MYname	{Open this if your belief score reaches 11}
+      \s\MYtext	{Was this your fault? Were all these deaths a result of your refusal to die?}
+      }
+    
+
+    \NEW{MemPage}{\BeliefTwelve}{
+      \s\MYname	{Open this if your belief score reaches 12}
+      \s\MYtext	{This is too much. All this death. All this magic. Your work. Your life. Which is the lie? Which is the truth? What is your fault? What is God's? You can't deny what's in front of you, yet you can't explain anything. What is happening? What is \textit{wrong} with this town? This is hopeless. What good are you as a scientist if you can't explain anything? How can you fight what you can't understand?
+      
+      You are suffering a catastrophic mental breakdown. Tear up your research notebook on curing the plague; you are too stressed to make progress on it or share your results. Your belief score cannot go down and your breakdown will last the entire rest of the game. Roleplay accordingly.
+      }
+      }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

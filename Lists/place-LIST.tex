@@ -45,95 +45,30 @@
 
 \NEW{Place}{\pOwnedByGm}{
 	\s\MYname	{Stuff Owned by the GMs}
-	\s\MYsigns	{\sGFG{}\sYPack{}}
-  	\s\MYitems	{\multi{8}{\iGhoulVid{}}\multi{8}{\iInformation{}}\multi{8}{\iBlackMailD{}}\multi{8}{\iScanTech{}}\multi{8}{\iStealthTech{}}}
+	\s\MYsigns	{\sXPack{}\sYPack{}\sZPack}
+  	\s\MYitems	{}
   }
 
-\NEW{Place}{\pBridgeC}{
-	\s\MYname	{Bridge of the Chivalry}
-	\s\MYwhere	{Room 203}
-	\s\MYsigns	{\sBridgeC{}\sVoneTerminalLoggedOut{}\sVoneTerminalLoggedIn{}\sComArrayCLoggedIn{}\sComArrayCLoggedOut{}\sTestTubeRack{}}
-	\s\MYitems	{\iBattery{}\iScrapMetal{}\iRapier{}}
+\NEW{Place}{\pNave}{
+	\s\MYname	{Nave}
+	\s\MYwhere	{Hallway}
+	\s\MYsigns	{\multi{6}{\sNPC{}}\sNaveC{}\sPetrol{}}
+	\s\MYitems	{\multi{3}{\iPetrol{}}}
 }
 
-\NEW{Place}{\pEngineC}{
-	\s\MYname	{Engine Room of the Chivalry}
-	\s\MYwhere	{Room 205}	
-	\s\MYsigns	{\sEngineC{} \sStationFourFixed{} \sStationFourDiagnosed{} \sStationFourBroken{} \sStealth{}\sStealthTerminalLoggedIn{}\sStealthTerminalLoggedOut{}\sVtwoTerminalLoggedOut{}\sVtwoTerminalLoggedIn{}\sWrenchSign{}}
-	\s\MYitems	{\iBattery{}\iSieve{}\iMultitool{}\iMultitool{}\iRapier{}}
+\NEW{Place}{\pPrivateRoom}{
+	\s\MYname	{Elder's Private Quarters}
+	\s\MYwhere	{}	
+	\s\MYsigns	{\sPrivateRoomC{}\sDrawers{}\sWill{}}
+	\s\MYitems	{\multi{3}{\iAlcohol{}}\iMask{}}
 }
 
-\NEW{Place}{\pCrewQ}{
-	\s\MYname	{Crew Quarters}
-	\s\MYwhere	{Room 217}
-	\s\MYsigns	{\sCrewQ{}\sCentrifugeBroken{}\sCentrifuge{}\sWireSign{}\sTestTubeRack{}\sRBox{}}
-	\s\MYitems	{\iBattery{}\iSieve{}\iCauldron{}\iCauldron{}}
+\NEW{Place}{\pGarden}{
+	\s\MYname	{Garden}
+	\s\MYwhere	{}
+	\s\MYsigns	{\sGardenC{}\sPond{}\sClayMound{}}
+	\s\MYitems	{}
 }
-
-\NEW{Place}{\pHallway}{
-	\s\MYname	{Hallway}
-	\s\MYwhere	{Hallway Outside Room 230}
-	\s\MYsigns	{\sHiddenWall{}\sBiolockedSwitch{}\sBiolockedSwitchActive{}\sBrainDead{}\sStasisPods{}}
-}
-
-\NEW{Place}{\pShuttleBay}{
-	\s\MYname	{Shuttle Bay of the Chivalry}
-	\s\MYwhere	{Room 230}	
-	\s\MYsigns	{\sShuttleBay{}}
-}
-
-\NEW{Place}{\pRaid}{
-	\s\MYname	{Raid Shuttle}
-	\s\MYwhere	{Room 230}	
-	\s\MYsigns	{\sEngineR{} \sRaid{} \sControlR{} \sStationRFixed{} \sStationRDiagnosed{} \sStationRBroken{}}
-	\s\MYitems	{\iGlassLens{}}
-}
-
-\NEW{Place}{\pPillage}{
-	\s\MYname	{Pillage Shuttle}
-	\s\MYwhere	{Room 230}	
-	\s\MYsigns	{\sEngineP{} \sPillage{} \sControlP{} \sStationPFixed{} \sStationPDiagnosed{} \sStationPBroken{}}
-	\s\MYitems	{\iGlassLens{}}
-}
-
-\NEW{Place}{\pBioLabC}{
-	\s\MYname	{Biological Laboratory}
-	\s\MYwhere	{Room 202}	
-	\s\MYsigns	{\sBioLab{}\sBloodAnalyzer{} \sTestTubeRack{}\sBioLabLock{}\sBioLabLever{}\sFount{}\sVthreeTerminalLoggedOut{}\sVthreeTerminalLoggedIn{}\sChemVRack{}\sBLDoorLock{}}
-	\s\MYitems	{\iControlRod{}\iGenerator{}\iScrapMetal{}\iCalibrator{}}
-}
-
-\NEW{Place}{\pLifeSupport}{
-	\s\MYname	{Life Support}
-	\s\MYwhere	{Room 219}	
-	\s\MYsigns	{\sLSRepair{}\sLSTaskOne{}\sLSTaskTwo{}\sLSTaskThree{}\sLSTaskFour{}\sLockedBox{}\sBox{}\sFount{}}
-	\s\MYitems	{\iCalibrator{}}
-}
-
-\NEW{Place}{\pAnodyneBridge}{
-	\s\MYname	{Bridge of the Anodyne}
-	\s\MYwhere	{Room 303}
-	\s\MYsigns	{
-    	\sAnodyne{}\sAnodyneBridge{}\sAnodyneWeaponsLocker{}\sComArrayALoggedIn{}\sComArrayALoggedOut{}
-		\sAnodyneTerminalLoggedOut{}\sAnodyneTerminalOne{}\sAnodyneTerminalTwo{}\sAnodyneTerminalThree{}\sAnodyneTerminalFour{}\sAnodyneTerminalFive{}\sAnodyneTerminalSix{}\sAnodyneTerminalSeven{}\sAnodyneTerminalEight{}
-		\sEvidenceEnvelopeOne{}\sEvidenceEnvelopeOneTrigger{}
-		\sEvidenceEnvelopeTwo{}\sEvidenceEnvelopeTwoTrigger{}
-		\sEvidenceEnvelopeThree{}\sEvidenceEnvelopeThreeTrigger{}
-		\sEvidenceEnvelopeFour{}\sEvidenceEnvelopeFourTrigger{}
-		\sEvidenceEnvelopeFive{}\sEvidenceEnvelopeFiveTrigger{}
-		\sBlankItems{}
-		}
-}
-
-\NEW{Place}{\pAnodyneEngineRoom}{
-	\s\MYname	{Engine Room of the Anodyne}
-	\s\MYwhere	{Room 305}
-	\s\MYsigns	{\sAnodyneEngineRoom{}\sEngineABroken{}\sEngineADiagnosed{}\sEngineAFixed{}\sAnodyneScan{}\sScanTerminalLoggedIn{}\sScanTerminalLoggedOut{}}
-	\s\MYitems	{\iCalibrator{}}
-}
-
-
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

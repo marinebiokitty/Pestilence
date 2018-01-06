@@ -170,239 +170,129 @@
 	\s\MYmark	{}
 }
 
-\NEW{ItemEnvelope}{\iTestTube}{
-	\s\MYname	{Test Tube}
-	\s\MYnumber	{9259}
-	\s\MYtext	{A test tube}
-  	\s\MYcontents	{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Con Artist's wares
+
+\NEW{ItemFold}{\iRealPotion}{
+	\s\MYname	{Mysterious Potion}
+	\s\MYnumber	{0012}
+	\s\MYtext	{Smells like...melted copper? Open if consumed}
+  	\s\MYcontents	{Your insides are burning and it doesn't stop. Your CR drops to 0, and you are unable to use weapons or your combat abilities for the rest of the game. If you were infected, you are no longer infected and you lose your ability to spread the plague. If you weren't infected, all you know is that you are probably crippled for the rest of your life. Item is destroyed}
 }
 
-\NEW{Item}{\iCredits}{
-	\s\MYname	{One Hundred Credits}
-	\s\MYnumber	{1580}
-	\s\MYtext	{One Hundred Credits Universally Traded in Trust}
+\NEW{ItemFold}{\iFakeMedicineOne}{
+	\s\MYname	{Mysterious Potion}
+	\s\MYnumber	{0013}
+	\s\MYtext	{Smells like an armpit. Open if consumed}
+  	\s\MYcontents	{Tastes like an armpit too. Item is destroyed}
 }
 
- \NEW{Item}{\iCircuitBoard}{
- 	\s\MYname	{Circuit Board}
- 	\s\MYnumber	{9779}
- 	\s\MYtext	{A circuit board. Consume when used.}
- }
+\NEW{ItemFold}{\iFakeMedicineTwo}{
+	\s\MYname	{Mysterious Potion}
+	\s\MYnumber	{0014}
+	\s\MYtext	{Smells like honey and plumeria. Open if consumed}
+  	\s\MYcontents	{Was that cold syrup? You don't feel any different. Item is destroyed}
+}
 
-\NEW{Item}{\iVideoCamera}{
-  \s\MYname	{Video Camera}
-  \s\MYnumber	{0564}
-  \s\MYtext	{
-  	A Frith police-issued video camera that can take pictures or videos. It is biometrically locked. You can only open the attached envelope if you are the original owner.
-	}
-	\unstash
-  }
+\NEW{ItemFold}{\iFakeMedicineThree}{
+	\s\MYname	{Mysterious Potion}
+	\s\MYnumber	{0015}
+	\s\MYtext	{Smells like tar. Open if consumed}
+  	\s\MYcontents	{Ugh! You feel nauseous. Lose 1 CR for 15 minutes. Item is destroyed}
+}
 
-\NEW{Item}{\iUltravioletLamp}{
-  \s\MYname	{Ultraviolet Lamp}
-  \s\MYnumber	{4157}
-  \s\MYtext	{
-  	A Frith police-issued ultraviolet lamp. 
-	}
-	\unstash
-  }
-  
-  \NEW{Item}{\iLoveLetter}{
-  \s\MYname	{Love Letter}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Weapons
+
+  \NEW{Item}{\iDagger}{
+  \s\MYname	{Dagger}
   \s\MYnumber	{7742}
-  \s\MYtext	{
-  	My dearest Joan, I have waited so long to tell you the truth that I have kept hidden for all these centuries. I am deeply in love with you! Up until now, I have had to keep this a secret, but after today I believe I can be free to devote myself to you. Your love, Julie.
-	}
-	\unstash
+  \s\MYtext	{A small, easy to conceal dagger. Adds +1 to your CR. Only one weapon may be wielded at a time}
   }
  
-  \NEW{Item}{\iRapier}{
- 	\s\MYname	{Rapier}
+  \NEW{Item}{\iStaff}{
+ 	\s\MYname	{Staff}
  	\s\MYnumber	{0063}
- 	\s\MYtext	{A sharp rapier. Adds +1 to your CR. You can only wield one rapier at a time.}
+ 	\s\MYtext	{An oaken staff. Adds +1 to your CR. Only one weapon may be wielded at a time}
 	\bulky	{1}
  }
  
- \NEW{Item}{\iChemicalV}{
- 	\s\MYname	{Chemical V}
+ \NEW{Item}{\iScalpel}{
+ 	\s\MYname	{Scalpel}
  	\s\MYnumber	{2626}
- 	\s\MYtext	{A test tube filled with a yellow chemical.}
+ 	\s\MYtext	{Typically used for surgery, but may be used to cut up someone's face in a pinch. Adds +1 to your CR. Only one weapon may be wielded at a time}
  }
  
- \NEW{Item}{\iWrench}{
- 	\s\MYname	{Wrench}
+ \NEW{Item}{\iRevolver}{
+ 	\s\MYname	{Revolver}
  	\s\MYnumber	{0579}
- 	\s\MYtext	{A wrench.}
+ 	\s\MYtext	{It has ran out of bullets, unfortunately, but can still be a good blunt weapon. Adds +1 to your CR. Only one weapon may be wielded at a time}
  }
  
-  \NEW{Item}{\iWires}{
- 	\s\MYname	{Wires}
- 	\s\MYnumber	{8772}
- 	\s\MYtext	{A tangle of wires.}
+  \NEW{Item}{\iBoneDagger}{
+ 	\s\MYname	{Bone Dagger}
+ 	\s\MYnumber	{0579}
+ 	\s\MYtext	{A sacrificial dagger. More an ornament than a weapon}
  }
  
-  \NEW{Item}{\iCalibrator}{
- 	\s\MYname	{Calibrator}
- 	\s\MYnumber	{2632}
- 	\s\MYtext	{A box with a bunch of buttons on it.}
-	\bulky	{1}
- }
- 
-  \NEW{Item}{\iSerum}{
- 	\s\MYname	{Serum}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Resources
+
+  \NEW{Item}{\iBlood}{
+ 	\s\MYname	{Blood}
  	\s\MYnumber	{8703}
- 	\s\MYtext	{A test tube of black liquid. Destroy item card if you drink.}
+ 	\s\MYtext	{You need it in your body. May only be extracted by someone with the relevant ability. Mark card with check if the blood has been extracted.}
  }
  
- \NEW{ItemFold}{\iHealthPotion}{
- 	\s\MYname	{Vial of Bright Green Liquid}
- 	\s\MYnumber	{5710}
- 	\s\MYtext	{open if you consume}
- 	\s\MYcontents {This potion will heal a wounded person. Consume when used.}
- }
-
-\NEW{ItemFold}{\iCRUpPotion}{
-	\s\MYname	{Vial of Bright Red Liquid}
-	\s\MYnumber	{7249}
-	\s\MYtext	{open if consumed}
-	\s\MYcontents {Drinking this liquid will make you feel stronger. The drinker's CR will increase by 1 for a period of five minutes. Consume when used.}
-}
-
-\NEW{Item}{\iInvisibilityCloak}{
-	\s\MYname	{Invisibility Cloak.}
-	\s\MYnumber	{9226}
-	\s\MYtext	{This cloak enables the wearer to become invisible for five minutes or until they interact with a person or item. This means you can move around gamespace and hear things, but no one sees you. Consume when used.}
-}
-
-\NEW{Item}{\iSieve}{
-	\s\MYname	{Sieve}
-	\s\MYnumber	{3155}
-	\s\MYtext	{A sieve for filtering solid matter from a liquid.}
-}
-
-\NEW{Item}{\iCauldron}{
-	\s\MYname	{Cauldron}
-	\s\MYnumber	{2574}
-	\bulky {1}
-	\s\MYtext	{A cast-iron cauldron.}
-}
-
-\NEW{Item}{\iMultitool}{
-	\s\MYname	{Multitool}
-	\s\MYnumber	{2647}
-	\s\MYtext	{A very useful multitool.}
-}
-
-\NEW{Item}{\iScrapMetal}{
-	\s\MYname	{Scrap Metal}
-	\s\MYnumber	{9817}
-	\s\MYtext	{A hunk of scrap metal. Consume when used.}
-}
-
-\NEW{Item}{\iGlassLens}{
-	\s\MYname	{Glass Lens}
-	\s\MYnumber	{9819}
-	\s\MYtext	{A precise glass lens.}
-}
-
-\NEW{Item}{\iBlackMailD}{
-	\s\MYname	{Black Mail}
-	\s\MYnumber	{9820}
-	\s\MYtext	{Evidence of \cVone{} enslaving humans against their will.}
-}
-
-\NEW{Item}{\iInformation}{
-	\s\MYname	{Equipment Fix Instructions}
-	\s\MYnumber	{2142}
-	\s\MYtext	{Information necessary to fix broken equipment.}
-}
-
-\NEW{Item}{\iGhoulVid}{
-	\s\MYname	{Incriminating Video}
-	\s\MYnumber	{5216}
-	\s\MYtext	{This video shows the members of the Chivalry's crew being forcibly made into ghouls.}
-}
-
-\NEW{Item}{\iStealthTech}{
-	\s\MYname	{Stealth Tech}
-	\s\MYnumber	{6757}
-	\s\MYtext	{The frequency manipulations required to maintain stealth}
-}
-
-\NEW{Item}{\iScanTech}{
-	\s\MYname	{Scanning Tech}
-	\s\MYnumber	{0103}
-	\s\MYtext	{The algorithms required to detect stealth}
-}
-
-\NEW{Item}{\iControlRod}{
-	\s\MYname	{Control Rod}
-	\s\MYnumber	{1642}
-	\s\MYtext	{This rod activates the BioLab Lever.}
-}
- 
- \NEW{Item}{\iIsotope}{
- 	\s\MYname	{Mysterious Isotope}
- 	\s\MYnumber	{1127}
- 	\s\MYtext	{A chunk of dull gray metal. Glows slightly.}
+   \NEW{Item}{\iCoins}{
+ 	\s\MYname	{Coins}
+ 	\s\MYnumber	{8703}
+ 	\s\MYtext	{5 copper coins}
  }
  
-  \NEW{Item}{\iMicroscope}{
- 	\s\MYname	{Microscope}
- 	\s\MYnumber	{8300}
- 	\s\MYtext	{A relatively small microscope.}
-	\bulky {1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Medical Supplies 
+ 
+  \NEW{ItemFold}{\iAlcohol}{
+ 	\s\MYname	{Expensive Whiskey}
+ 	\s\MYnumber	{8772}
+ 	\s\MYtext	{Alcohol. The cause of and solution to all of life's problems. Open if drunk}
+ 	\s\MYcontents	{This is some ridiculously strong booze. You feel warm and giddy. Roleplay your best drunk personality for 5 minutes. Item is destroyed.}
  }
  
-  \NEW{Item}{\iBattery}{
- 	\s\MYname	{Battery}
- 	\s\MYnumber	{4719}
- 	\s\MYtext	{A small source of electricity. Doesn't appear very useful.}
+   \NEW{ItemFold}{\iRubbingAlcohol}{
+ 	\s\MYname	{Rubbing Alcohol}
+ 	\s\MYnumber	{8772}
+ 	\s\MYtext	{97 percent proof rubbing alcohol. Potent sterilizer. Open if drunk}
+ 	\s\MYcontents	{You regret everything. Lose 1 CR for half an hour. Roleplay your most miserable drunk personality for 5 minutes. Item is destroyed.}
  }
  
-  \NEW{Item}{\iGenerator}{
- 	\s\MYname	{Handheld Generator}
- 	\s\MYnumber	{7280}
- 	\s\MYtext	{A relatively small source of electricity.}
-	\bulky {1}
+    \NEW{Item}{\iMask}{
+ 	\s\MYname	{Plague Mask}
+ 	\s\MYnumber	{8772}
+ 	\s\MYtext	{You cannot be infected by dead bodies as long as you have this on your person.}
  }
+ 
+    \NEW{ItemFold}{\iVaccine}{
+ 	\s\MYname	{Vaccine}
+ 	\s\MYnumber	{8772}
+ 	\s\MYtext	{Open if you choose to use it}
+ 	\s\MYcontents	{You are immune to infection for the rest of the game. Item is destroyed.}
+ }
+ 
+%Environmental
 
-\NEW{Item}{\iCaptainRing}{
-	\s\MYname	{Captain's Ring}
-	\s\MYnumber	{8511}
-	\s\MYtext	{This ornate golden ring allows secure access to many parts and functions of the ship.}
-}
-
-\NEW{Item}{\iResearchOne}{
- 	\s\MYname	{Leukemia Cure Research Paper}
- 	\s\MYnumber	{3700}
- 	\s\MYtext	{A research paper on the cure for leukemia.}
+    \NEW{Item}{\iPetrol}{
+ 	\s\MYname	{Fuel}
+ 	\s\MYnumber	{8772}
+ 	\s\MYtext	{Can be used to burn a body from two ZOCs away. Cannot be used on living people. Why would you do that? Re-usable}
  }
  
- \NEW{Item}{\iResearchTwo}{
- 	\s\MYname	{Speculation on Ver Blood Research Paper}
- 	\s\MYnumber	{2677}
- 	\s\MYtext	{A research paper on the potential properties of Ver blood.}
+ \NEW{Item}{\iRock}{
+ 	\s\MYname	{Rock}
+ 	\s\MYnumber	{8773}
+ 	\s\MYtext	{A rock. Or a stone, depending on your definition of smooth.}
  }
- 
- \NEW{Item}{\iResearchThree}{
- 	\s\MYname	{Practical Applications of Blood Science Research Paper}
- 	\s\MYnumber	{2680}
- 	\s\MYtext	{A research paper on practical and marketable applications of blood science.}
- }
- 
- \NEW{Item}{\iVerDisorientationDrug}{
- 	\s\MYname	{Test Tube Containing Clear Serum}
- 	\s\MYnumber	{}
- 	\s\MYtext	{Only the owner knows what this does.}
- }
- 
- \NEW{Item}{\iVerVulnerabilityDrug}{
- 	\s\MYname	{Test Tube Containing Dark Red Solids}
- 	\s\MYnumber	{}
- 	\s\MYtext	{Only the owner knows what this does.}
- }
- 
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

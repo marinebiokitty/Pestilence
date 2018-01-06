@@ -38,34 +38,145 @@
   \suite
   }
 
-\NEW{Abil}{\aFiremansCarry}{
-    \s\MYname	{Fireman's Carry}
-    \s\MYtext	{You can carry a body as if it were two hands bulky.}
-    \s\MYeffect	{I can carry this body well.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%Magic abilities
+
+%Shaman and Elder, start
+\NEW{Abil}{\aRitualSacrifice}{
+    \s\MYname	{Ritual Sacrifice}
+    \s\MYtext	{Kill targeted character in order to appease the earth. To activate the ability, three player characters must form a triangle around the victim for 5 uninterrupted minutes. Victim is trapped within the triangle as long as no part of the triangle steps away or gets attacked. Victim does not need to be conscious for the ritual to start. At the end of 5 minutes, ask the victim if they are willing to give themselves to the earth. Regardless of the answer, the victim is sacrificed. Interruption resets timer.}
+    \s\MYeffect	{You see me chanting over someone with a bone dagger in hand}
 	\s\MYnumber {9221}    
 }
 
-\NEW{Abil}{\aRepair}{
-	\s\MYname	{Engineering Knowledge}
-	\s\MYtext	{You have the knowledge to be able to repair complex mechanical devices. When you repair a location, place the non functioning sign below the functioning one.}
-	\s\MYeffect	{I know how to fix machines}
+%Elder, Rebel, Plaguebearer, start
+\NEW{Abil}{\aPrestidigitation}{
+	\s\MYname	{Prestidigitation}
+	\s\MYtext	{Some harmless, minor magic. Declare what you're doing to everyone in the same room.}
+	\s\MYeffect	{You see me creating light and butterflies from nowhere}
 	\s\MYnumber {7690}	
 }
- 
-\NEW{Abil}{\aHolyHands}{
-	\s\MYname	{Holy Hand}
-	\s\MYtext	{You have a Blessing such that your hands, and thus weapons wielded will induce Holy Water weakness in Ver}
-	\s\MYeffect	{You feel as though you have been exposed to Holy Water.}
+
+%Shaman, Elder, Rebel, start. Apprentice, acquirable
+\NEW{Abil}{\aTrueSight}{
+	\s\MYname	{True Sight}
+	\s\MYtext	{You are able to see those who are not bound to a body. However, you cannot hear them.}
+	\s\MYeffect	{I can see ghosts and spirits}
 	\s\MYnumber {1036}	
 }
-  
-\NEW{Abil}{\aOpenWay}{
-	\s\MYname	{Opened Path}
-	\s\MYtext	{If it is during the last 15 minutes of game and the ritual leader Chants "Fjeng dyre kell Yug Sothoth" then you will be taken to the home of the ritual leader}
-	\s\MYeffect	{You see an inky black swirl in reality envelop me as I disappear.}
+
+%Elder, start. Apprentice, acquirable
+\NEW{Abil}{\aEntrapment}{
+	\s\MYname	{Entrapment}
+	\s\MYtext	{You may bind the earth spirit to any object. For this to work, the earth spirit must not be bound to a body or another object. The earth spirit is paralyzed at the start of ability. From there, the entrapment will take 3 uninterrupted minutes to complete. Once the ritual is successful, the earth spirit must remain within two ZOCs of the object it's bound to and obey every feasible command made by the one who wields that object.}
+	\s\MYeffect	{If you are a formless earth spirit, you are paralyzed. People without True Sight see me casting an unknown spell.}
 	\s\MYnumber {7694}	
 }
-  
+
+%Rebel and Shaman, start
+\NEW{Abil}{\aBloodSorcery}{
+	\s\MYname	{Blood Sorcery}
+	\s\MYtext	{Blood has its own power. You know its ways even without a spirit's help. You can sacrifice one portion of your own blood or one vial of extracted blood in order to gain +1 CR for five minutes. The ability is obviously magical in nature. Describe accordingly to onlookers}
+	\s\MYeffect	{Tendrils of blood crawl over my hands}
+	\s\MYnumber {7694}	
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%Medical abilities
+
+%Plaguebearer, start. Everyone else, acquirable after infection
+\NEW{Abil}{\aSpreadPlague}{
+	\s\MYname	{Spread Plague}
+	\s\MYtext	{Put a sticker on a PC or NPC to infect them. The sticker doesn't have to be on a name badge; the infected must arrange that themselves once they know they're infected. You may use this ability even if restrained, provided you are close enough to your target to put a sticker on them.}
+	\s\MYeffect	{You feel your throat swell and your temperature rise. You are infected.}
+	\s\MYnumber {7695}	
+}
+
+%Plaguebearer, start
+\NEW{Abil}{\aImmunity}{
+	\s\MYname	{Immunity}
+	\s\MYtext	{You are not affected by the plague. You may choose to either display symptoms (have a sticker on your name badge) or not. Cures cannot take away your ability to spread the plague.}
+	\s\MYeffect	{I am unaffected by your cure}
+	\s\MYnumber {7695}	
+}
+
+%Rebel, acquirable
+\NEW{Abil}{\aCure}{
+	\s\MYname	{Cure Infection}
+	\s\MYtext	{You can cure the plague. For 3 minutes, you work to shut down the plague's nexus within the target's body. At the end, show the card to your target. Interruption resets timer. You may cure yourself with this ability.}
+	\s\MYeffect	{You are no longer infected. You are restored to your original CR and are unable to spread the plague.}
+	\s\MYnumber {7695}	
+}
+
+%Plaguebearer, acquirable
+\NEW{Abil}{\aSalvation}{
+	\s\MYname	{Salvation}
+	\s\MYtext	{You can instantaneously cure the plague. Show the card to your target.}
+	\s\MYeffect	{You are no longer infected. You are restored to your original CR and are unable to spread the plague.}
+	\s\MYnumber {7695}	
+}
+
+%Outsider and Apprentice, start
+\NEW{Abil}{\aFirstAid}{
+	\s\MYname	{First Aid}
+	\s\MYtext	{You have EMT training. For a minute, you work to save a wounded person through non-magical means. Show this card to target at the end. Interruption resets timer.}
+	\s\MYeffect	{You are no longer wounded. You may wake up after 2 minutes}
+	\s\MYnumber {7173}
+}
+
+%Outsider and Apprentice, start 
+\NEW{Abil}{\aDrawBlood}{
+	\s\MYname	{Draw Blood}
+	\s\MYtext	{To draw blood, show this card to a consenting, wounded or unconscious character. Perform an interruptible 5 count, take their blood and mark it with a check. You may draw blood from yourself. If you use this ability without alcohol on your person, roll a d6. If you roll 2 or less, the target of this ability is infected. Inform the target if this happens. Using this ability does not consume alcohol. You cannot draw blood from the same person less than 5 minutes after you've taken blood from them}
+	\s\MYeffect	{I take one portion of blood from you}
+	\s\MYnumber {7173}
+}
+
+%Shaman, start. Plaguebearer and Rebel, acquirable
+\NEW{Abil}{\aFaithHealing}{
+	\s\MYname	{Faith Healing}
+	\s\MYtext	{For a minute, you use your immense spiritual power in order to save a wounded person. Inform onlookers that the ability is magical in nature. Show this card to target at the end. Interruption resets timer.}
+	\s\MYeffect	{You are no longer wounded. You may wake up after 2 minutes}
+	\s\MYnumber {7173}
+}
+
+%Apprentice and Outsider, acquirable
+\NEW{Abil}{\aMakePotion}{
+	\s\MYname	{MakePotion}
+	\s\MYtext	{You know how to reproduce potion 0012. Gather 2 vials of uninfected blood and 5 copper coins to melt. The rest of the ingredients are easily accessible to you. Once you have the ingredients, you may destroy them and get item 0012 from Envelope X}
+	\s\MYeffect	{I'm stirring melted copper into a nasty black substance.}
+	\s\MYnumber {7173}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%Clay-related abilities
+
+%Shaman, start
+\NEW{Abil}{\aCraftBody}{
+	\s\MYname	{Craft Body}
+	\s\MYtext	{You can spend 1 minute by the clay mound in the garden to craft a new body for the earth spirit. Interruption resets timer.}
+	\s\MYeffect	{You see me creating some form of clay sculpture}
+	\s\MYnumber {7173}
+}
+
+%Plaguebearer, start
+\NEW{Abil}{\aImmortalSpirit}{
+	\s\MYname	{Immortal Spirit}
+	\s\MYtext	{Your body disintegrates into clay when you are killed or when you will it. Until you can inhabit a new clay body, you may wear a yellow headband and spy on others. Only characters with True Sight can detect you in this form. You cannot attack, assist or be attacked when formless, but you can spread infection}
+	\s\MYeffect	{You see my body dissolve into clay}
+	\s\MYnumber {7173}
+}
+
+%Plaguebearer, acquirable
+\NEW{Abil}{\aReturnToEarth}{
+	\s\MYname	{Return To Earth}
+	\s\MYtext	{Wear a red headband at the start of the ability. 3 minutes after you activate the ability, you melt back into the earth, and you are removed from game. Your body and all the items on you are destroyed. Combat resets timer. Nothing else can interrupt this ritual.}
+	\s\MYeffect	{You see a figure wreathed in blue flames, chanting.}
+	\s\MYnumber {7173}
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -74,7 +185,7 @@
 %% Basic DarkWater-style Martial Attack abilities
 
 
-%% Everyone has these 4
+%% Everyone has these 5
 \NEW{Abil}{\aAssist}{
     \s\MYname	{Assist}
     \s\MYtext	{You can assist someone else's attack.  You must be
@@ -100,25 +211,12 @@
     \s\MYeffect	{I wound you.}
 	\s\MYnumber {7188}    
 }
+
 \NEW{Abil}{\aKillingBlow}{
     \s\MYname	{Killing Blow}
-    \s\MYtext	{You can perform a killing blow on someone else after an audible, interruptible 10-count. The target must be helpless (unconscious, wounded, or restrained).}
+    \s\MYtext	{You can perform a killing blow on someone else after an audible, interruptible 10-count. The target must be helpless (unconscious, wounded, or restrained). All NPC targets are considered helpless.}
     \s\MYeffect	{I perform a killing blow on you after a 10-count. ``Killing blow 1, killing blow 2, ..." You are dead.}
 	\s\MYnumber {1294}		
-}
-
-%% the \basecombat macro can be prepended to the Char abils list
-%% (in char-LIST.tex)
-\def\basecombat{\aKnockOut{}\aWound{}\aAssist{}\aKillingBlow{}}
-
-%% only some people have these
-\NEW{Abil}{\aDisarm}{
-    \s\MYname	{Disarm}
-    \s\MYtext	{You can disarm one item from someone as an attack.  Say
-    		``\MYname'' and your CR.  Point at the item you want to
-    		disarm.  If the attack works, they must drop that item.}
-    \s\MYeffect	{I disarm that item.}
-	\s\MYnumber {2137}    
 }
 
 \NEW{Abil}{\aRestrain}{
@@ -132,71 +230,12 @@
     		``release.''}
 	\s\MYnumber {9242}		
 }
-\NEW{Abil}{\aThrow}{
-    \s\MYname	{Throw}
-    \s\MYtext	{You can throw someone as an attack.  Say ``\MYname'' and
-    		your CR.  Point in the direction you want to throw them.}
-    \s\MYeffect	{I throw you.  Go in the direction I point ten full steps
-    		or until you hit a wall or similar.}
-	\s\MYnumber {0029}		
-}
+
+%% the \basecombat macro can be prepended to the Char abils list
+%% (in char-LIST.tex)
+\def\basecombat{\aKnockOut{}\aWound{}\aAssist{}\aKillingBlow{}\aRestrain}
   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\NEW{Abil}{\aGamma}{
-	\s\MYname	{Collect Gamma}
-    \s\MYtext	{When you collect blood for the purposes of analyzing it, ask the person you are drawing blood from (out of game) to write their $\gamma$ score on a sheet of paper and put it into the test tube envelope without showing it to you. Don't open the envelope until directed to do so.}
-    \s\MYeffect	{Write your $\gamma$ score on a sheet of paper and put it into the \iTestTube{} envelope.}
-    \s\MYnumber {9246}
-}
-
-\NEW{Abil}{\aFirstAid}{
-	\s\MYname	{First Aid}
-	\s\MYtext	{Spend 1 minute roleplaying ministering to your patient. At the end of this minute, if they have not already died, show this card to them. They are no longer wounded.}
-	\s\MYeffect	{You are no longer wounded. Wake up after 2 minutes.}
-	\s\MYnumber {7173}
-}
-
-\NEW{Abil}{\aTrump}{
-	\s\MYname	{Relieve from Duty}
-	\s\MYtext	{Use this ability to fire an officer from their position aboard TIS Chivalry.}
-	\s\MYeffect	{You are are hereby relieved from duty. When you return to the Ver homeworld you will have to find work elsewhere.}
-	\s\MYnumber {9221}
-}
-
-\NEW{Abil}{\aDefense}{
-    \s\MYname	{Protective Exoskeleton}
-    \s\MYtext	{You have a strong exoskeleton so you can add +2 to your base CR for defense. You don't need to show this card to use this ability.}
-    \s\MYeffect	{I have chitinous plates just beneath my skin that make me look hard to damage.}
-    \s\MYnumber {9253}
-}
-  
-\NEW{Abil}{\aHack}{
-    \s\MYname	{Hack Terminal}
-    \s\MYtext	{This card represents your ability to hack. If someone catches you hacking into a terminal, show them the effect of this card.}
-    \s\MYeffect	{You see me fiddling with the computer terminal with intent to break in.}
-    \s\MYnumber {4135}
-}
-  
-\NEW{Abil}{\aSabotage}{
-    \s\MYname	{Sabotage Engine}
-    \s\MYtext	{This card represents your ability to sabotage. If someone catches you sabotaging an engine, show them the effect of this card. If you sabotage a location, place the functioning sign underneath the non functioning ones.}
-    \s\MYeffect	{You see me fiddling with the engine with intent to break it.}
-    \s\MYnumber {0552}
-}
-  
-\NEW{Abil}{\aGhoul}{
-    \s\MYname	{Forcibly Make a Ghoul}
-    \s\MYtext	{This card represents your ability force a restrained, unwilling human to become a ghoul. If someone catches you doing this, show them the effect of this card.}
-    \s\MYeffect	{You see me forcibly making a human into a ghoul.}
-    \s\MYnumber {8745}
-}
-  
-\NEW{Abil}{\aRitual}{
-	\s\MYname	{Performing a Ritual}
-	\s\MYtext	{This card represents your ability to perform rituals for Yug Sothoth. If someone catches you performing a ritual show them the effect of this card.}
-	\s\MYeffect	{You see me performing a ritual to something called Yug Sothoth.}
-	\s\MYnumber {4650}
-}  
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
