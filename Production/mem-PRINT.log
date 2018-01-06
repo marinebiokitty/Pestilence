@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.8)  5 JAN 2018 21:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.8)  6 JAN 2018 14:33
 entering extended mode
 **C:/Users/charf/OneDrive/Documents/GitHub/Pestilence/Production/mem-PRINT.tex
 (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence/Production/mem-PRINT.tex
@@ -837,10 +837,10 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no I in font nullfont!
 (mem-PRINT.aux) ) 
 Here is how much of TeX's memory you used:
- 14089 strings out of 493323
- 208920 string characters out of 3139067
- 311068 words of memory out of 3000000
- 17340 multiletter control sequences out of 15000+200000
+ 14080 strings out of 493323
+ 208860 string characters out of 3139067
+ 310924 words of memory out of 3000000
+ 17331 multiletter control sequences out of 15000+200000
  35264 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,13n,55p,1297b,1912s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -849,7 +849,7 @@ rogram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/h
 elvetic/uhvro8a.pfb>
-Output written on mem-PRINT.pdf (20 pages, 67480 bytes).
+Output written on mem-PRINT.pdf (20 pages, 67980 bytes).
 PDF statistics:
  84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

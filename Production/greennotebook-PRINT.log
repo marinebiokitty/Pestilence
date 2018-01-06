@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.8)  5 JAN 2018 21:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.8)  6 JAN 2018 14:07
 entering extended mode
 **C:/Users/charf/OneDrive/Documents/GitHub/Pestilence/Production/greennotebook-
 PRINT.tex
@@ -488,7 +488,7 @@ s
 \temp@dimen=\dimen159
 \temp@box=\box66
 
-(greennotebook-PRINT.aux)
+No file greennotebook-PRINT.aux.
 \openout1 = `greennotebook-PRINT.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -499,7 +499,6 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 3.
-
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
@@ -577,19 +576,11 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 4.49997pt on input line 5.
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Outsider.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Notebooks/OutsiderLab.tex
-)
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Notebooks/README-green.te
+x)
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 1.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 1.
-LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 (Font)              scaled to size 8.99994pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 1.
@@ -633,6 +624,8 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 4.49997pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
@@ -641,12 +634,14 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Notebooks/OutsiderLab.tex
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 8.09995pt on input line 1.
-
-(greennotebook-PRINT.aux)
+(Font)              scaled to size 8.99994pt on input line 1.
+ (greennotebook-PRINT.aux)
 \openout1 = `greennotebook-PRINT.aux'.
 
  [1
@@ -667,34 +662,17 @@ Non-PDF special ignored!
  [1
 
 ] [2]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 8.09995pt on input line 1.
+
 (greennotebook-PRINT.aux)
 \openout1 = `greennotebook-PRINT.aux'.
 
  [1
 
 ] [2]
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Elder.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex
-)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Notebooks/ApprenticeLab.t
-ex) (greennotebook-PRINT.aux)
-\openout1 = `greennotebook-PRINT.aux'.
-
- [1
-
-] [2] (greennotebook-PRINT.aux)
-\openout1 = `greennotebook-PRINT.aux'.
-
- [1
-
-] [2]
-(greennotebook-PRINT.aux)
-\openout1 = `greennotebook-PRINT.aux'.
-
- [1
-
-] [2]
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Rebel.tex)
 (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Notebooks/RebelLab.tex)
 (greennotebook-PRINT.aux)
 \openout1 = `greennotebook-PRINT.aux'.
@@ -713,118 +691,50 @@ ex) (greennotebook-PRINT.aux)
  [1
 
 ] [2]
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Shaman.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Plaguebearer.t
-ex) (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/ConA.tex)
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Notebooks/ApprenticeLab.t
+ex) (greennotebook-PRINT.aux)
+\openout1 = `greennotebook-PRINT.aux'.
 
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
+ [1
 
+] [2] (greennotebook-PRINT.aux)
+\openout1 = `greennotebook-PRINT.aux'.
 
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
+ [1
 
+] [2]
+(greennotebook-PRINT.aux)
+\openout1 = `greennotebook-PRINT.aux'.
 
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
+ [1
 
+] [2] (greennotebook-PRINT.aux)
+\openout1 = `greennotebook-PRINT.aux'.
 
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
+ [1
 
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
+] [2]
+(greennotebook-PRINT.aux)
+\openout1 = `greennotebook-PRINT.aux'.
 
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
+ [1
 
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-(greennotebook-PRINT.aux) ) 
+] [2] (greennotebook-PRINT.aux) ) 
 Here is how much of TeX's memory you used:
- 13991 strings out of 493323
- 208520 string characters out of 3139067
- 317626 words of memory out of 3000000
- 17238 multiletter control sequences out of 15000+200000
+ 13392 strings out of 493323
+ 201408 string characters out of 3139067
+ 312988 words of memory out of 3000000
+ 16656 multiletter control sequences out of 15000+200000
  27073 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,13n,52p,5662b,1691s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r
-.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on greennotebook-PRINT.pdf (18 pages, 52196 bytes).
+ 46i,13n,48p,5544b,1267s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/b
+ase/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on greennotebook-PRINT.pdf (22 pages, 56626 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

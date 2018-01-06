@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.8)  5 JAN 2018 21:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.8)  6 JAN 2018 12:52
 entering extended mode
 **C:/Users/charf/OneDrive/Documents/GitHub/Pestilence/Production/listblue-PRINT
 .tex
@@ -476,7 +476,7 @@ s
 (C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-No file listblue-PRINT.aux.
+(listblue-PRINT.aux)
 \openout1 = `listblue-PRINT.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -488,7 +488,7 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 3.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 3.
@@ -498,8 +498,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 3.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 3.
@@ -562,51 +561,46 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Outsider.tex)
-(listblue-PRINT.aux)
-\openout1 = `listblue-PRINT.aux'.
-
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Bluesheets/TownElders.tex
-)
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Bluesheets/ShabnakAdyr.te
+x)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 5.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 6.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 5.
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 5.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 6.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 6.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 5.
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 6.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlptmcm.fd"
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 5.
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 6.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxpsycm.fd"
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 6.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -620,19 +614,7 @@ Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored!
-
-] [2
-
-] (listblue-PRINT.aux)
-\openout1 = `listblue-PRINT.aux'.
-
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Elder.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Bluesheets/ShabnakAdyr.te
-x) [1
-
-] [2
+Non-PDF special ignored!] [2
 
 ] (listblue-PRINT.aux)
 \openout1 = `listblue-PRINT.aux'.
@@ -646,205 +628,22 @@ x) [1
 ] (listblue-PRINT.aux)
 \openout1 = `listblue-PRINT.aux'.
 
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex
-)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Bluesheets/ShabnakAdyr.te
-x) [1
-
-] [2
-
-] (listblue-PRINT.aux)
-\openout1 = `listblue-PRINT.aux'.
-
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Bluesheets/TownElders.tex
-) [1
-
-] [2
-
-] (listblue-PRINT.aux)
-\openout1 = `listblue-PRINT.aux'.
-
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Rebel.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Bluesheets/ShabnakAdyr.te
-x) [1
-
-] [2
-
-] (listblue-PRINT.aux)
-\openout1 = `listblue-PRINT.aux'.
-
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Bluesheets/TownElders.tex
-) [1
-
-] [2
-
-] (listblue-PRINT.aux)
-\openout1 = `listblue-PRINT.aux'.
-
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Shaman.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Bluesheets/ShabnakAdyr.te
-x) [1
-
-] [2
-
-] (listblue-PRINT.aux)
-\openout1 = `listblue-PRINT.aux'.
-
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Bluesheets/TownElders.tex
-) [1
-
-] [2
-
-] (listblue-PRINT.aux)
-\openout1 = `listblue-PRINT.aux'.
-
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Plaguebearer.t
-ex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Bluesheets/ShabnakAdyr.te
-x) [1
-
-] [2
-
-] (listblue-PRINT.aux)
-\openout1 = `listblue-PRINT.aux'.
-
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/ConA.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Bluesheets/ShabnakAdyr.te
-x) [1
-
-] [2
-
-] (listblue-PRINT.aux)
-\openout1 = `listblue-PRINT.aux'.
-
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Bluesheets/TownElders.tex
-) [1
-
-] [2
-
-] (listblue-PRINT.aux)
-\openout1 = `listblue-PRINT.aux'.
-
-
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-(listblue-PRINT.aux) ) 
+ (listblue-PRINT.aux) ) 
 Here is how much of TeX's memory you used:
- 13858 strings out of 493323
- 208521 string characters out of 3139067
- 295601 words of memory out of 3000000
- 17086 multiletter control sequences out of 15000+200000
- 20271 words of font info for 50 fonts, out of 3000000 for 9000
+ 13167 strings out of 493323
+ 198881 string characters out of 3139067
+ 287423 words of memory out of 3000000
+ 16458 multiletter control sequences out of 15000+200000
+ 18668 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,12n,45p,1660b,1572s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
-<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times
-/utmri8a.pfb>
-Output written on listblue-PRINT.pdf (24 pages, 74829 bytes).
+ 45i,12n,45p,1660b,684s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on listblue-PRINT.pdf (4 pages, 43420 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
+ 28 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
