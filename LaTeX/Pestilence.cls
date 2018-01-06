@@ -24,7 +24,7 @@
 %%
 %% When you change this, make sure the name of this file and the name
 %% of the game's environment variable both match it.  See ../README.
-\def\gameclassname{guildcamp4}
+\def\gameclassname{Pestilence}
 
 
 %%%%%
@@ -38,8 +38,8 @@
 %%
 %% Basic custom game information; gets used everywhere.  Don't put
 %% linebreaks in these and keep their lengths reasonable.
-\def\gamename{Blood Captives}
-\def\gamedate{April 2nd, 2016}
+\def\gamename{Pestilence}
+\def\gamedate{Late January}
 
 
 %%%%%
@@ -81,7 +81,7 @@
 %% Define \signdate as either \gamedate or \gamedateabbrev.  If you
 %% plan to leave signs up between different runs, \gamedate may be
 %% better.
-\def\takedownby{April 3rd, 2016}
+\def\takedownby{Later January}
 \def\signdate{\gamedateabbrev}
 
 
