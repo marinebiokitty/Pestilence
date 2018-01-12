@@ -46,7 +46,7 @@
 \NEW{Abil}{\aRitualSacrifice}{
     \s\MYname	{Ritual Sacrifice}
     \s\MYtext	{Kill targeted character in order to appease the earth. To activate the ability, three player characters must form a triangle around the victim for 5 uninterrupted minutes. Not all characters in triangle need to have this ability. Victim is trapped within the triangle as long as no part of the triangle steps away or gets attacked. Victim does not need to be conscious for the ritual to start. At the end of 5 minutes, ask the victim if they are willing to give themselves to the earth. Regardless of the answer, the victim is sacrificed. Interruption resets timer.}
-    \s\MYeffect	{You see me chanting over someone with a bone dagger in hand}
+    \s\MYeffect	{You are being sacrificed. You cannot leave the triangle unless this ability is interrupted by outside forces}
 	\s\MYnumber {9221}    
 }
 
@@ -145,7 +145,7 @@
 %Apprentice and Outsider, acquirable
 \NEW{Abil}{\aMakePotion}{
 	\s\MYname	{MakePotion}
-	\s\MYtext	{You know how to reproduce potion 0012. Gather 2 vials of blood and 5 copper coins to melt. The rest of the ingredients are easily accessible to you. Once you have the ingredients, you may destroy them and get item 0012 from Envelope X}
+	\s\MYtext	{You know how to reproduce potion 0012. Gather 2 vials of blood and a copper coin. The rest of the ingredients are easily accessible to you. Once you have the ingredients, you may destroy them and get item 0012 from Envelope X}
 	\s\MYeffect	{I'm stirring melted copper into a nasty black substance.}
 	\s\MYnumber {7173}
 }
@@ -175,6 +175,17 @@
 	\s\MYname	{Return To Earth}
 	\s\MYtext	{Wear a red headband at the start of the ability. 3 minutes after you activate the ability, you melt back into the earth, and you are removed from game. Your body and all the items on you are destroyed. Combat resets timer. Nothing else can interrupt this ritual.}
 	\s\MYeffect	{You see a figure wreathed in blue flames, chanting.}
+	\s\MYnumber {7173}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Money-related abilities
+
+%Con, start
+\NEW{Abil}{\aBribery}{
+	\s\MYname	{Bribery}
+	\s\MYtext	{If the army arrives at the shelter and you have at least 15 coins, you can leave the shelter regardless of infection. Hopefully, city hospitals and real antibiotics are better at managing this disease.}
+	\s\MYeffect	{I give the army doctor a bag of coins and a radiant smile.}
 	\s\MYnumber {7173}
 }
 
