@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.8)  5 JAN 2018 21:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.8)  21 JAN 2018 13:24
 entering extended mode
 **C:/Users/charf/OneDrive/Documents/GitHub/Pestilence/Production/carditem-PRINT
 .tex
@@ -11,7 +11,7 @@ Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 (C:\Users\charf\OneDrive\Documents\GitHub\Pestilence\LaTeX\Pestilence_path.cls)
 (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//LaTeX/gametex.sty
 Document Class: Pestilence 
-  --- Pestilence --- Late January ---
+  --- Pestilence --- January 27th, 2018 ---
 \@multicount=\count79
 \@mapbox=\box26
 \@@@unique=\count80
@@ -666,6 +666,13 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 
 ] [2]
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex
+) (carditem-PRINT.aux)
+\openout1 = `carditem-PRINT.aux'.
+
+ [1
+
+] [2]
 (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Elder.tex)
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 5.
@@ -678,13 +685,6 @@ LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
  [1
 
 ] [2]
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex
-) (carditem-PRINT.aux)
-\openout1 = `carditem-PRINT.aux'.
-
- [1
-
-] [2]
 (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Rebel.tex)
 (carditem-PRINT.aux)
 \openout1 = `carditem-PRINT.aux'.
@@ -692,15 +692,15 @@ LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
  [1
 
 ] [2]
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Shaman.tex)
-(carditem-PRINT.aux)
-\openout1 = `carditem-PRINT.aux'.
-
- [1
-
-] [2]
 (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Plaguebearer.t
-ex) (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/ConA.tex)
+ex) (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Shaman.tex
+) (carditem-PRINT.aux)
+\openout1 = `carditem-PRINT.aux'.
+
+ [1
+
+] [2]
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/ConA.tex)
 (carditem-PRINT.aux)
 \openout1 = `carditem-PRINT.aux'.
 
@@ -753,34 +753,6 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
 [3] [4
 
 ] (carditem-PRINT.aux)
@@ -789,6 +761,33 @@ Missing character: There is no I in font nullfont!
  [1
 
 ] [2]
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
 Missing character: There is no I in font nullfont!
  [3] [4
 
@@ -799,18 +798,6 @@ Missing character: There is no I in font nullfont!
 
 ] [2]
 Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
 
 [3] [4
 
@@ -820,6 +807,18 @@ Missing character: There is no I in font nullfont!
  [1
 
 ] [2]
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
 Missing character: There is no I in font nullfont!
  [3] [4
 
@@ -830,19 +829,6 @@ Missing character: There is no I in font nullfont!
 
 ] [2]
 Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
 
 [3] [4
 
@@ -851,21 +837,44 @@ Missing character: There is no I in font nullfont!
 
  [1
 
-] [2] (carditem-PRINT.aux) ) 
+] [2]
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+ [3] [4
+
+] (carditem-PRINT.aux)
+\openout1 = `carditem-PRINT.aux'.
+
+ [1
+
+] [2]
+(carditem-PRINT.aux) ) 
 Here is how much of TeX's memory you used:
- 13899 strings out of 493323
- 207037 string characters out of 3139067
- 308501 words of memory out of 3000000
- 17156 multiletter control sequences out of 15000+200000
+ 14058 strings out of 493323
+ 208448 string characters out of 3139067
+ 312531 words of memory out of 3000000
+ 17313 multiletter control sequences out of 15000+200000
  25603 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,13n,45p,1302b,1539s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8
-r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on carditem-PRINT.pdf (32 pages, 48850 bytes).
+ 47i,13n,45p,1532b,1553s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
+<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on carditem-PRINT.pdf (36 pages, 52921 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.8)  5 JAN 2018 21:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.8)  21 JAN 2018 13:33
 entering extended mode
 **C:/Users/charf/OneDrive/Documents/GitHub/Pestilence/Production/paperitem-PRIN
 T.tex
@@ -11,7 +11,7 @@ Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 (C:\Users\charf\OneDrive\Documents\GitHub\Pestilence\LaTeX\Pestilence_path.cls)
 (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//LaTeX/gametex.sty
 Document Class: Pestilence 
-  --- Pestilence --- Late January ---
+  --- Pestilence --- January 27th, 2018 ---
 \@multicount=\count79
 \@mapbox=\box26
 \@@@unique=\count80
@@ -667,176 +667,44 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 
-] [2]
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Elder.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex
-) (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Rebel.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Shaman.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Plaguebearer.t
-ex) (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/ConA.tex)
-(paperitem-PRINT.aux)
-\openout1 = `paperitem-PRINT.aux'.
-
- [1
-
-] [2]
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-
-! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
-
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-[3] [4
-
-] (paperitem-PRINT.aux)
-\openout1 = `paperitem-PRINT.aux'.
-
- [1
-
 ] [2] (paperitem-PRINT.aux)
 \openout1 = `paperitem-PRINT.aux'.
 
  [1
 
 ] [2]
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
- [3]
-[4
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex
+) (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Elder.tex)
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Rebel.tex)
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Plaguebearer.t
+ex) (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Shaman.tex
+)
+! Undefined control sequence.
+\MYcontents ...t can multiply indefinitely \texit 
+                                                  {without} losing its diffe...
+<argument> ... \parindent 10pt\relax {\MYcontents 
+                                                  }\hfil \@@par 
+\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
+                                                  \color@endgroup }\def \wid...
 
-] (paperitem-PRINT.aux)
-\openout1 = `paperitem-PRINT.aux'.
+\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
+                                                  \ifx \relax #2\else \setle...
+<argument> ...ent 10pt\relax {\MYcontents }\hfil }
+                                                   \vskip \packetspace }
+\fbox ...box {\color@begingroup \kern \fboxsep {#1
+                                                  }\kern \fboxsep \color@end...
+<argument> ...ents }\hfil } \vskip \packetspace }}
+                                                  }
+\card_calc ...lobal \setbox \front_card \hbox {{#1
+                                                  }}\global \setbox \front_c...
 
- [1
-
-] [2]
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
- [3] [4
-
-] (paperitem-PRINT.aux)
-\openout1 = `paperitem-PRINT.aux'.
-
- [1
-
-] [2]
-Missing character: There is no I in font nullfont!
-
-[3] [4
-
-] (paperitem-PRINT.aux)
-\openout1 = `paperitem-PRINT.aux'.
-
- [1
-
-] [2]
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no I in font nullfont!
- [3] (paperitem-PRINT.aux) ) 
-Here is how much of TeX's memory you used:
- 13890 strings out of 493323
- 206899 string characters out of 3139067
- 320544 words of memory out of 3000000
- 17155 multiletter control sequences out of 15000+200000
- 25054 words of font info for 56 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 47i,13n,45p,1303b,1539s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8
-r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on paperitem-PRINT.pdf (23 pages, 39937 bytes).
-PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+\card #1->\card_calc {#1}{}
+                           \putcard 
+\EnvelopePacket ...hfil } \vskip \packetspace }}}}
+                                                  \endgroup 
+\EnvelopeItem ...tsize \parindent 10pt\relax {#4}}
+                                                  \endgroup 
+...
+l.5 \production
+               
+? 
