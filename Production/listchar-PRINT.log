@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.8)  6 JAN 2018 12:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.8)  21 JAN 2018 13:19
 entering extended mode
 **C:/Users/charf/OneDrive/Documents/GitHub/Pestilence/Production/listchar-PRINT
 .tex
@@ -11,7 +11,7 @@ Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 (C:\Users\charf\OneDrive\Documents\GitHub\Pestilence\LaTeX\Pestilence_path.cls)
 (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//LaTeX/gametex.sty
 Document Class: Pestilence 
-  --- Pestilence --- Late January ---
+  --- Pestilence --- January 27th, 2018 ---
 \@multicount=\count79
 \@mapbox=\box26
 \@@@unique=\count80
@@ -629,6 +629,17 @@ Non-PDF special ignored!
 \openout1 = `listchar-PRINT.aux'.
 
 
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex
+)
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex
+) [1
+
+] [2] [3] [4
+
+] (listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
 (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Elder.tex)
 (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Elder.tex)
 [1
@@ -639,28 +650,13 @@ Non-PDF special ignored!
 \openout1 = `listchar-PRINT.aux'.
 
 
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex
-)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex
-) [1
-
-] [2] (listchar-PRINT.aux)
-\openout1 = `listchar-PRINT.aux'.
-
-
 (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Rebel.tex)
 (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Rebel.tex)
 [1
 
-] [2] (listchar-PRINT.aux)
-\openout1 = `listchar-PRINT.aux'.
+] [2] [3] [4
 
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Shaman.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Shaman.tex)
-[1
-
-] [2] (listchar-PRINT.aux)
+] (listchar-PRINT.aux)
 \openout1 = `listchar-PRINT.aux'.
 
 
@@ -670,6 +666,16 @@ ex)
 ex) [1
 
 ] [2] (listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Shaman.tex)
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Shaman.tex)
+[1
+
+] [2] [3] [4
+
+] (listchar-PRINT.aux)
 \openout1 = `listchar-PRINT.aux'.
 
 
@@ -776,13 +782,13 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no I in font nullfont!
 (listchar-PRINT.aux) ) 
 Here is how much of TeX's memory you used:
- 14113 strings out of 493323
- 210382 string characters out of 3139067
- 320450 words of memory out of 3000000
- 17359 multiletter control sequences out of 15000+200000
+ 14277 strings out of 493323
+ 211811 string characters out of 3139067
+ 331421 words of memory out of 3000000
+ 17523 multiletter control sequences out of 15000+200000
  23660 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,14n,45p,9102b,1993s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,13n,45p,10057b,1993s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/charf/A
@@ -790,9 +796,9 @@ ppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
 r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on listchar-PRINT.pdf (18 pages, 123178 bytes).
+Output written on listchar-PRINT.pdf (24 pages, 135258 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

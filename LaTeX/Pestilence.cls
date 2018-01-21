@@ -39,7 +39,7 @@
 %% Basic custom game information; gets used everywhere.  Don't put
 %% linebreaks in these and keep their lengths reasonable.
 \def\gamename{Pestilence}
-\def\gamedate{Late January}
+\def\gamedate{January 27th, 2018}
 
 
 %%%%%
@@ -81,7 +81,7 @@
 %% Define \signdate as either \gamedate or \gamedateabbrev.  If you
 %% plan to leave signs up between different runs, \gamedate may be
 %% better.
-\def\takedownby{Later January}
+\def\takedownby{January 28th, 2018}
 \def\signdate{\gamedateabbrev}
 
 
