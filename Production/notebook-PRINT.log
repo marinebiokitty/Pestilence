@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2018.2.12)  12 FEB 2018 15:16
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.8)  21 JAN 2018 13:33
+>>>>>>> b5908cad9e38b0f298a0fa2cedc0fe9f31c861dd
 entering extended mode
 **./notebook-PRINT.tex
 (notebook-PRINT.tex
@@ -567,6 +571,7 @@ G,.JBIG2,.JB2,.eps]
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 4.49997pt on input line 5.
 
+<<<<<<< HEAD
 (C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Outsider.tex)
 (C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex)
 (C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Elder.tex)
@@ -574,6 +579,15 @@ LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Plaguebearer.tex)
 (C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Shaman.tex)
 (C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/ConA.tex)
+=======
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Outsider.tex)
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex
+) (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Elder.tex)
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Rebel.tex)
+(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Plaguebearer.t
+ex) (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Shaman.tex
+) (C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/ConA.tex)
+>>>>>>> b5908cad9e38b0f298a0fa2cedc0fe9f31c861dd
 
 ! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
 
@@ -669,6 +683,7 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no I in font nullfont!
 (notebook-PRINT.aux) ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  13862 strings out of 493333
  204540 string characters out of 3136605
  300926 words of memory out of 3000000
@@ -676,6 +691,15 @@ Here is how much of TeX's memory you used:
  5465 words of font info for 18 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,2n,45p,1471b,1557s stack positions out of 5000i,500n,10000p,200000b,50000s
+=======
+ 13854 strings out of 493323
+ 205395 string characters out of 3139067
+ 301499 words of memory out of 3000000
+ 17172 multiletter control sequences out of 15000+200000
+ 5465 words of font info for 18 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 45i,2n,45p,1532b,1555s stack positions out of 5000i,500n,10000p,200000b,50000s
+>>>>>>> b5908cad9e38b0f298a0fa2cedc0fe9f31c861dd
 
 No pages of output.
 PDF statistics:
