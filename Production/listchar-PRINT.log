@@ -1,24 +1,20 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.8)  21 JAN 2018 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2018.2.12)  13 FEB 2018 22:06
 entering extended mode
-**C:/Users/charf/OneDrive/Documents/GitHub/Pestilence/Production/listchar-PRINT
-.tex
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence/Production/listchar-PRINT.
-tex
-LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-(C:\Users\charf\OneDrive\Documents\GitHub\Pestilence\LaTeX\Pestilence.cls
-(C:\Users\charf\OneDrive\Documents\GitHub\Pestilence\LaTeX\Pestilence_path.cls)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//LaTeX/gametex.sty
+**./listchar-PRINT.tex
+(listchar-PRINT.tex
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+(Pestilence.cls (Pestilence_path.cls)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//LaTeX/gametex.sty
 Document Class: Pestilence 
   --- Pestilence --- January 27th, 2018 ---
 \@multicount=\count79
 \@mapbox=\box26
 \@@@unique=\count80
 \@jobcnt=\count81
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count82
@@ -37,7 +33,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
   Packages: verbatim multicol comma multido alltt ulem
   Graphics Packages: pstricks graphicx lscape
   Symbol Packages: latexsym amssymb textcomp
-("C:\Program Files\MiKTeX 2.9\tex\latex\pslatex\pslatex.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pslatex\pslatex.sty"
 Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -71,13 +67,13 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 75.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks14
 \verbatim@line=\toks15
 \verbatim@in@stream=\read1
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \c@tracingmulticols=\count90
 \mult@box=\box27
 \multicol@leftmargin=\dimen103
@@ -124,21 +120,21 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \mult@nat@firstbox=\box51
 \colbreak@box=\box52
 \mc@col@check@num=\count98
-) (C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\latex\comma\comma.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\comma\comma.sty"
 Package: comma 1997/12/15 v1.2 Insert commas every three digits (DPC)
-) (C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\latex\multido\multido.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multido\multido.sty"
 Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
 
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\multido\multido.tex  v1.
-42, 2010/05/14 <tvz>
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\multido\multido.tex"  v1.42, 20
+10/05/14 <tvz>
 \multido@count=\count99
 \multidocount=\count100
 \multido@stuff=\toks16
 )
 File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\alltt.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\alltt.sty"
 Package: alltt 1997/06/16 v2.0g defines alltt environment
-) (C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\latex\ulem\ulem.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
 \UL@box=\box53
 \UL@hyphenbox=\box54
 \UL@skip=\skip45
@@ -149,19 +145,19 @@ Package: alltt 1997/06/16 v2.0g defines alltt environment
 \ULC@box=\box55
 Package: ulem 2012/05/18
 \ULdepth=\dimen114
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\pstricks\pstricks.sty"
-Package: pstricks 2017/03/17 v0.63 LaTeX wrapper for `PSTricks' (RN,HV)
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pstricks\pstricks.sty"
+Package: pstricks 2015/11/14 v0.62 LaTeX wrapper for `PSTricks' (RN,HV)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count102
@@ -175,20 +171,20 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\pstricks.tex" ("C:\Program
- Files\MiKTeX 2.9\tex\generic\xkeyval\pst-xkey.tex"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pstricks\pstricks.tex" ("C:\P
+rogram Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\pst-xkey.tex"
 File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex" ("C:\Program Fil
-es\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex" ("C:\Progr
+am Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
 \XKV@toks=\toks18
 \XKV@tempa@toks=\toks19
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex"))
 \XKV@depth=\count103
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))) ("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\pst-fp.tex" `pst-fp' v0.
-05, 2010/01/17 (hv)
+))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pstricks\pst-fp.tex" `pst-f
+p' v0.05, 2010/01/17 (hv)
 \pstFP@xs=\count104
 \pstFP@xia=\count105
 \pstFP@xib=\count106
@@ -199,31 +195,25 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \pstFP@regs=\count111
 \pstFP@times=\count112
 )
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-co
-mmon.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.te
+x"
 \pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen115
 \pgfutil@tempdimb=\dimen116
 
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-co
-mmon-lists.tex))
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.co
-de.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-li
+sts.tex")) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkey
+s.code.tex"
 \pgfkeys@pathtoks=\toks21
 \pgfkeys@temptoks=\toks22
 
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfil
-tered.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
+ode.tex"
 \pgfkeys@tmptoks=\toks23
-))
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.cod
-e.tex
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.te
-x
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.cod
-e.tex
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.cod
-e.tex
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.te
+x" ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex" (
+"C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex" (
+"C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex"
 \pgf@x=\dimen117
 \pgf@xa=\dimen118
 \pgf@xb=\dimen119
@@ -238,9 +228,8 @@ e.tex
 \c@pgf@countd=\count116
 \pgfutil@tempcnta=\count117
 \pgfutil@tempcntb=\count118
-)
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.c
-ode.tex
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.t
+ex"
 \pgfmath@dimen=\dimen125
 \pgfmath@count=\count119
 \pgfmath@box=\box56
@@ -248,26 +237,25 @@ ode.tex
 \pgfmath@stack@operand=\toks25
 \pgfmath@stack@operation=\toks26
 )
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.code.tex
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.basic.code.tex)
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.trigonometric.code.tex)
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.random.code.tex)
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.comparison.code.tex)
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.base.code.tex)
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.round.code.tex)
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.misc.code.tex)
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.integerarithmetics.code.tex)))
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.co
-de.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.
+tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigo
+nometric.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.rando
+m.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.compa
+rison.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.
+code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round
+.code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.
+code.tex")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integ
+erarithmetics.code.tex"))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\
+math\pgfmathfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count120
 ))
 \pgffor@iter=\dimen126
@@ -276,7 +264,7 @@ de.tex
 \pgffor@toks=\toks28
 )
 \psLoopIndex=\count121
-`PSTricks' v2.73a  <2017/05/22> (tvz)
+`PSTricks' v2.71  <2016/12/23> (tvz)
 \pst@dima=\dimen128
 \pst@dimb=\dimen129
 \pst@dimc=\dimen130
@@ -302,7 +290,7 @@ de.tex
 \pst@cntp=\count131
 \@zero=\count132
 \pst@toks=\toks29
-("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\pstricks.con")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pstricks\pstricks.con")
 \psunit=\dimen138
 \psxunit=\dimen139
 \psyunit=\dimen140
@@ -322,40 +310,40 @@ de.tex
 \sh@wgridYunit=\dimen151
 \pst@shift=\dimen152
 )
-File: pstricks.tex 2017/05/22 v2.73a `PSTricks' (tvz,hv)
-("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\pst-fp.tex")
-File: pst-fp.tex 2017/05/22 v2.73a `PST-fp' (hv)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+File: pstricks.tex 2016/12/23 v2.71 `PSTricks' (tvz,hv)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pstricks\pst-fp.tex")
+File: pst-fp.tex 2016/12/23 v2.71 `PST-fp' (hv)
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 \Gin@req@height=\dimen153
 \Gin@req@width=\dimen154
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks32
 \symAMSa=\mathgroup7
 \symAMSb=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
-Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2016/06/19 v1.99m Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -368,7 +356,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -435,45 +423,44 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//LaTeX/extraction.sty
+(C:/Users/mashtu/Documents/GitHub/Pestilence//LaTeX/extraction.sty
 \!toks=\toks33
 )
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//LaTeX/parsename.sty
+(C:/Users/mashtu/Documents/GitHub/Pestilence//LaTeX/parsename.sty
 \*count=\count134
 )
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//LaTeX/datatypes.sty
+(C:/Users/mashtu/Documents/GitHub/Pestilence//LaTeX/datatypes.sty
 \:count=\count135
 \:toks=\toks34
 )
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Lists/blue-LIST.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Lists/green-LIST.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Lists/abil-LIST.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Lists/combat-LIST.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Lists/mem-LIST.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Lists/item-LIST.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Lists/white-LIST.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Lists/notebook-LIST.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Lists/money-LIST.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Lists/sign-LIST.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Lists/subowner-LIST.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Lists/gm-LIST.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Lists/char-LIST.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Lists/place-LIST.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Lists/run1-LIST.tex)
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip46
-\f@nch@O@elh=\skip47
-\f@nch@O@erh=\skip48
-\f@nch@O@olh=\skip49
-\f@nch@O@orh=\skip50
-\f@nch@O@elf=\skip51
-\f@nch@O@erf=\skip52
-\f@nch@O@olf=\skip53
-\f@nch@O@orf=\skip54
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Lists/blue-LIST.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Lists/green-LIST.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Lists/abil-LIST.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Lists/combat-LIST.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Lists/mem-LIST.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Lists/item-LIST.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Lists/white-LIST.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Lists/notebook-LIST.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Lists/money-LIST.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Lists/sign-LIST.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Lists/subowner-LIST.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Lists/gm-LIST.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Lists/char-LIST.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Lists/place-LIST.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Lists/run1-LIST.tex)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip46
+\f@ncyO@elh=\skip47
+\f@ncyO@erh=\skip48
+\f@ncyO@olh=\skip49
+\f@ncyO@orh=\skip50
+\f@ncyO@elf=\skip51
+\f@ncyO@erf=\skip52
+\f@ncyO@olf=\skip53
+\f@ncyO@orf=\skip54
 )
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (listchar-PRINT.aux)
@@ -488,7 +475,8 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 3.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 3.
@@ -498,12 +486,13 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 3.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 3.
 
-(C:\Users\charf\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count136
 \scratchdimen=\dimen155
@@ -516,38 +505,38 @@ LaTeX Font Info:    ... okay on input line 3.
 \MPnumerator=\count140
 \makeMPintoPDFobject=\count141
 \everyMPtoPDFconversion=\toks36
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -561,12 +550,12 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Outsider.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Outsider.tex)
 (listchar-PRINT.aux)
 \openout1 = `listchar-PRINT.aux'.
 
 
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Outsider.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Outsider.tex)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
@@ -578,19 +567,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
 LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 1.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 1.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlptmcm.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlptmcm.fd"
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+psycm on input line 1.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxpsycm.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxpsycm.fd"
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
@@ -599,17 +588,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
 LaTeX Font Info:    Try loading font information for U+lasy on input line 1.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 1.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 Non-PDF special ignored!
@@ -629,19 +618,8 @@ Non-PDF special ignored!
 \openout1 = `listchar-PRINT.aux'.
 
 
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex
-)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex
-) [1
-
-] [2] [3] [4
-
-] (listchar-PRINT.aux)
-\openout1 = `listchar-PRINT.aux'.
-
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Elder.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Elder.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex)
 [1
 
 ] [2] [3] [4
@@ -650,40 +628,49 @@ Non-PDF special ignored!
 \openout1 = `listchar-PRINT.aux'.
 
 
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Rebel.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Rebel.tex)
-[1
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Elder.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Elder.tex) [1
 
-] [2] [3] [4
-
-] (listchar-PRINT.aux)
-\openout1 = `listchar-PRINT.aux'.
-
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Plaguebearer.t
-ex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Plaguebearer.t
-ex) [1
-
-] [2] (listchar-PRINT.aux)
-\openout1 = `listchar-PRINT.aux'.
-
-
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Shaman.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Shaman.tex)
-[1
-
-] [2] [3] [4
+]
+[2] [3] [4
 
 ] (listchar-PRINT.aux)
 \openout1 = `listchar-PRINT.aux'.
 
 
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/ConA.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/ConA.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Rebel.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Rebel.tex) [1
+
+]
+[2] [3] [4
+
+] (listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Plaguebearer.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Plaguebearer.tex)
 [1
 
 ] [2] (listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Shaman.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Shaman.tex) [1
+
+]
+[2] [3] [4
+
+] (listchar-PRINT.aux)
+\openout1 = `listchar-PRINT.aux'.
+
+
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/ConA.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/ConA.tex) [1
+
+] [2]
+(listchar-PRINT.aux)
 \openout1 = `listchar-PRINT.aux'.
 
 
@@ -782,21 +769,22 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no I in font nullfont!
 (listchar-PRINT.aux) ) 
 Here is how much of TeX's memory you used:
- 14277 strings out of 493323
- 211811 string characters out of 3139067
- 331421 words of memory out of 3000000
- 17523 multiletter control sequences out of 15000+200000
+ 14292 strings out of 493333
+ 210950 string characters out of 3136605
+ 334594 words of memory out of 3000000
+ 17531 multiletter control sequences out of 15000+200000
  23660 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,13n,45p,10057b,1993s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/charf/A
-ppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utm
-r8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on listchar-PRINT.pdf (24 pages, 135258 bytes).
+ 45i,13n,45p,9996b,1993s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/base/8
+r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on listchar-PRINT.pdf (24 pages, 135139 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

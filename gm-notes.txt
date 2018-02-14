@@ -1,0 +1,44 @@
+*******************************
+Casting notes
+
+Alexander should not be played by someone uncomfortable with self-harm.
+
+Victor(ia) should not be played by someone who is uncomfortable with suicidal characters.
+
+N. Saburov is preferably played by an experienced player. They start with no strong alliances and they will make the most impact by getting up in people's faces and taking risks.
+
+Elder Kain (and Alexander to a lesser extent) is an authoritative hardass who likes being in charge and has no 21st century liberal university style respect for scientists. Alexander folding for Dr. Filin might not be too game-breaking (might be life-saving for both late game), but Elder Kain is hopefully yelling about human sacrifice the entire game. 
+
+*****************
+Location Notes
+
+The common room (where all the NPCs are) is highly recommended to be a T-shaped hallway or at least a room with big hidden corners. This will allow Dr. Filin to stealth-kill an NPC for his notebook or Klara/Katerina to stealth-kill Victoria if she wanders off to heal people on her own. (Thanks for the note, David!)
+
+The NPCs should be as far apart from each other as possible, some preferably tucked in remote corners.
+
+*****************
+Runtime Notes
+
+There should be 13 characters (7 PCs and 6 NPCs) at start of game. If bodies are burned, remove them from game space.
+
+The army will arrive in the last five minutes of game only if more than half the living characters appear uninfected.
+
+The game may end early if 1) the ritual sacrifice is completed successfully and Klara leaves the game space and 2) no one is infected or none of Dr. Filin/Victoria, Alexander/Nikolai, Dr. Filin/Nikolai pairs are intact. One run ended a bit over two hours in while the other run needed all three of its hours. 
+
+****************
+Ending Notes
+<pure fluff, not game essential>
+
+The town is saved and rebuilt quickly if either a) Dr. Filin completes his notebook and escapes alive and sane (thus stopping the army from killing the infected) or b) a correct sacrifice is made and Klara agrees to save the town. Otherwise, there aren't enough survivors to rebuild the town.
+
+Sidorovs gain control of the town if a) both Kain children are dead or b) N. Saburov escapes with the blood magic notes.
+
+Alexander is arguably the best elder for the town. He has enough outside experience to modernize the town and enough political savvy/knowledge of traditions to do so without pissing off too many people at once. If he has imprisoned the earth spirit, he warps into a copy of his dad, but if he lets the earth spirit go, he becomes a protector of the earth instead of an appeaser like the other elders were. He blocks mining operations and other environmentally destructive projects and heals his people through actual medicine. The earth is undisturbed, and it's fine with that.
+
+V. Kain will be an okay but miserable elder. They hate their job and are resented by the town, who suspect their dark magic to be responsible for the plague (they're not wrong). If they lost Alexander or Dr. Filin or both, they will likely not last long as an elder.
+
+Status quo is maintained if Elder Kain is alive and the Sidorov win condition is not triggered. 
+
+
+
+ 

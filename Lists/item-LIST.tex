@@ -226,7 +226,7 @@
  \NEW{Item}{\iRevolver}{
  	\s\MYname	{Revolver}
  	\s\MYnumber	{0579}
- 	\s\MYtext	{It has ran out of bullets, unfortunately, but can still be a good blunt weapon. Adds +1 to your CR. Only one weapon may be wielded at a time}
+ 	\s\MYtext	{It has ran out of bullets and is useless as a weapon}
  }
  
   \NEW{Item}{\iBoneDagger}{
@@ -276,7 +276,7 @@
     \NEW{ItemFold}{\iVaccine}{
  	\s\MYname	{Vaccine}
  	\s\MYnumber	{8772}
- 	\s\MYtext	{Open if you choose to use it}
+ 	\s\MYtext	{Open if you choose to use it. Only usable on healthy individuals}
  	\s\MYcontents	{You are immune to infection for the rest of the game. Item is destroyed.}
  }
  
@@ -299,14 +299,16 @@
  \NEW{ItemEnvelope}{\iNotes}{
 	  \s\MYname	{Research Notes on Blood Magic}
 	  \s\MYnumber	{0000}
-	  \s\MYtext	{Open if you have a belief score, regardless of its current value}
-	  \s\MYcontents	{At first, the notes seem little more than the town's usual magical gibberish. Upon further inspection, however, you notice some startling observations. Regenerating blood? Cells that can multiply indefinitely \texit{without} losing its differentiation and turning cancerous? You have little time to examine this closely, but you need to take these notes back to the capital and study them. This could save your lab! This could save millions of people!
+	  \s\MYtext	{Someone has been studying blood magic. Tut tut tut. Not a wise decision. These notes have an extra meaning to you if you have a belief score. In that case, open the envelope.}
+	  \s\MYcontents	{At first, the notes seem little more than the town's usual magical gibberish. Upon further inspection, however, you notice some startling observations. Regenerating blood? Cells that can multiply indefinitely \textit{without} losing its differentiation and turning cancerous? You have little time to examine this closely, but you need to take these notes back to the capital and study them. This could save your lab! This could save millions of people!
 	  
-	  The handwriting seems familiar, however. Is this \cRebel{}'s research? Should you tell \cRebel{\them} about this? What if \cRebel{\they} refuses to let you use this? Will \cRebel{\they} think you stole from \cRebel{\them}?}
+	  The handwriting seems familiar, however. Is this \cRebel{}'s research? Should you tell \cRebel{\them} about this? What if \cRebel{\they} refuses to let you use this? Will \cRebel{\they} think you stole from \cRebel{\them}?
+
+	(OOC: The notes are represented by the envelope, not this paper. Do not seperate this paper from the envelope)}
   }
   
 
-%The crucible envelope must be stuffed with 2 portions of blood  
+%The crucible envelope must be stuffed with 2 portions of blood. Tex doesn't want an item in an item 
   \NEW{ItemEnvelope}{\iCrucible}{
 	  \s\MYname	{Crucible}
 	  \s\MYnumber	{0000}

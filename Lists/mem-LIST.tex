@@ -115,7 +115,7 @@
   
   \NEW{MemFold}{\mWarning}{
   	\s\MYname	{Open when you see the character with badge 24873}
-  	\s\MYtext	{That headache again! Is \cApprentice{} in danger? Or is \cApprentice{\they} planning something nefarious? You don't want to take risks if it is the former. Tell \cApprentice{} to be careful and ask them to cut out whatever evil they might be planning.}
+  	\s\MYtext	{That headache again! Is \cApprentice{} in danger? Or is \cApprentice{\they} planning something nefarious? You don't want to take risks if it is the former. Tell \cApprentice{} to be careful and ask \cApprentice{\them} to cut out whatever harm \cApprentice{\they} might be planning.}
   }
   
 %Elder's alcohol problem
@@ -138,11 +138,13 @@
 
   \NEW{MemEnvelope}{\mPackT}{
   	\s\MYname	{Envelope T}
+	\s\MYtext	{True Sight ability}
   	\s\MYabils	{\aTrueSight{}}
   }
   
   \NEW{MemEnvelope}{\mPackE}{
   	\s\MYname	{Envelope E}
+	\s\MYtext	{Entrapment ability}
   	\s\MYabils	{\aEntrapment{}}
   }
   
@@ -150,11 +152,13 @@
 %Rebel notebook rewards
   \NEW{MemEnvelope}{\mPackF}{
   	\s\MYname	{Envelope F}
+	\s\MYtext	{Faith Healing}
   	\s\MYabils	{\aFaithHealing{}}
   }
   
   \NEW{MemEnvelope}{\mPackC}{
   	\s\MYname	{Envelope C}
+	\s\MYtext	{Cure Infection}
   	\s\MYabils	{\aCure{}}
   }
   
@@ -162,6 +166,7 @@
   
   \NEW{MemEnvelope}{\mPackV}{
   	\s\MYname	{Envelope V}
+	\s\MYtext	{Single dose of vaccine}
   	\s\MYitems	{\iVaccine{}}
   }
   
@@ -243,6 +248,30 @@
       You are suffering a catastrophic mental breakdown. Discard your research notebook on curing the plague; you are too stressed to make progress on it or share your results. Your belief score cannot go down and your breakdown will last the entire rest of the game. Roleplay accordingly.
       }
       }
+
+%Outsider (Dr. Filin) last minute sanity recovery  mechanic; Rebel starts with it
+
+  \NEW{MemEnvelope}{\mComeback}{
+  \s\MYname	{Open in the last 30 minutes of game}
+  \s\MYtext	{}
+  \s\MYmems	{\mInstructions{}\mTruth{}}
+  }
+
+  \NEW{MemFold}{\mInstructions}{
+  	\s\MYname	{Open if the doctor seems to have lost their mind and you're still in love with them}
+  	\s\MYtext	{This is not the \cOutsider{} you knew and loved. Seeing \cOutsider{\them} like this is almost as bad as losing \cOutsider{\them} again. You don't care if \cOutsider{} hates you as long as \cOutsider{\they} has \cOutsider{\their} mind again. You wonder if the truth would help: truth about the plague, about the resurrection, about your love for \cOutsider{} and why you did what you did. Yet you worry as well. \cOutsider{} needs the truth, but can \cOutsider{\they} handle it in such a fragile state? Will the truth bring \cOutsider{\them} back or will you just watch as \cOutsider{\they} voids your sacrifice and shoots \cOutsider{\themself} in the head?
+
+Give the other memfold in the envelope to \cOutsider{} after you've told \cOutsider{\them} the whole truth about the plague. You may choose not to do so. If you've told the entire truth to \cOutsider{} already, give \cOutsider{\them} the memfold along with an optional declaration of love.}
+  }
+
+  \NEW{MemFold}{\mTruth}{
+  	\s\MYname	{Give to Dr. Filin only if you've opened the other mempacket in the envelope. Dr Filin: open if you believe in the person who gave it to you}
+  	\s\MYtext	{Did you deserve this? Did you deserve to live at the cost of so many others? You didn't and you fear you never will, even if you live a million more years. But you're a doctor and your job is to save lives. You can't stop until your life is worth the sacrifice. And if your life will never be worth the sacrifice, then you will never stop.
+
+Your belief score is stabilized at 11, even if you have already reached 12. Magic can no longer raise your belief score or break your sanity. However, you are still a bit shaken and plagued by sporadic visions of your death. Roleplay and react accordingly.
+
+Science thrives on interdisciplinary collaboration. The plague is magical in nature so you need an expert in magic to find a cure. Ask \cRebel{} what needs to be done. Help \cRebel{\them}. If \cRebel{\they} needs to know where the disease is localized, you have to perform a 3 minute interruptible autopsy on an infected dead body and a 3 minute interruptible biopsy on an infected living PC to figure it out. You may skip the autopsy if it has already been conducted.}
+  }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
