@@ -1,15 +1,10 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2018.2.12)  13 FEB 2018 03:11
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.8)  21 JAN 2018 13:33
->>>>>>> b5908cad9e38b0f298a0fa2cedc0fe9f31c861dd
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210) (preloaded format=pdflatex 2018.2.12)  1 MAR 2018 02:25
 entering extended mode
-**C:/Users/mashtu/Documents/GitHub/Pestilence/Production/mem-PRINT.tex
-(C:/Users/mashtu/Documents/GitHub/Pestilence/Production/mem-PRINT.tex
+**./mem-PRINT.tex
+(mem-PRINT.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-(C:/Users/mashtu/Documents/GitHub/Pestilence/Production\Pestilence.cls
-(C:/Users/mashtu/Documents/GitHub/Pestilence/Production\Pestilence_path.cls)
+(Pestilence.cls (Pestilence_path.cls)
 (C:/Users/mashtu/Documents/GitHub/Pestilence//LaTeX/gametex.sty
 Document Class: Pestilence 
   --- Pestilence --- January 27th, 2018 ---
@@ -488,12 +483,7 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \temp@box=\box68
 \whitespace=\dimen165
 \memwidth=\dimen166
-
-<<<<<<< HEAD
-(C:/Users/mashtu/Documents/GitHub/Pestilence/Production\mem-PRINT.aux)
-=======
-(mem-PRINT.aux)
->>>>>>> b5908cad9e38b0f298a0fa2cedc0fe9f31c861dd
+ (mem-PRINT.aux)
 \openout1 = `mem-PRINT.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -505,12 +495,8 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 3.
 LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 3.
 
-<<<<<<< HEAD
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
-=======
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
->>>>>>> b5908cad9e38b0f298a0fa2cedc0fe9f31c861dd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 3.
@@ -589,11 +575,7 @@ G,.JBIG2,.JB2,.eps]
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 4.49997pt on input line 5.
 
-<<<<<<< HEAD
 (C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Outsider.tex)
-=======
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Outsider.tex)
->>>>>>> b5908cad9e38b0f298a0fa2cedc0fe9f31c861dd
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <5> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
@@ -720,74 +702,21 @@ Non-PDF special ignored!
 
 ]
 [2] (mem-PRINT.aux)
-<<<<<<< HEAD
-=======
 \openout1 = `mem-PRINT.aux'.
 
  [1
 
 ] [2] (mem-PRINT.aux)
->>>>>>> b5908cad9e38b0f298a0fa2cedc0fe9f31c861dd
 \openout1 = `mem-PRINT.aux'.
 
  [1
 
 ] [2]
-
-! datatype MemEnvelope error: \MYtext used but not \s in \mPackV.
-? \MYtext must either be set by \s or have a default declared by 
-  "\FD {\MYtext} { default }" before it is used.
-!punting LaTeX!
-
-! You can't use `\end' in internal vertical mode.
-\:typerr ... #2
-!punting LaTeX!}\batchmode \@@end 
-                                                  
-<argument> ...pty \else {\em \@tmp }\\\fi \MYtext 
-                                                  \hfil \@@par 
-\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
-                                                  \color@endgroup }\def \wid...
-
-\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
-                                                  \ifx \relax #2\else \setle...
-<argument> ...se {\em \@tmp }\\\fi \MYtext \hfil }
-                                                   \vskip \packetspace }
-\fbox ...box {\color@begingroup \kern \fboxsep {#1
-                                                  }\kern \fboxsep \color@end...
-<argument> ...Ytext \hfil } \vskip \packetspace }}
-                                                  }
-\card_calc ...lobal \setbox \front_card \hbox {{#1
-                                                  }}\global \setbox \front_c...
-
-\card #1->\card_calc {#1}{}
-                           \putcard 
-\EnvelopePacket ...hfil } \vskip \packetspace }}}}
-                                                  \endgroup 
-\\EnvelopeMempacket ...\else {\em \@tmp }\\\fi #4}
-                                                  \endgroup 
-...
-l.5 \production
-               
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex)
 (mem-PRINT.aux)
 \openout1 = `mem-PRINT.aux'.
 
-[1
-
-] [2] (C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Apprentice.tex) 
-(mem-PRINT.aux)
-\openout1 = `mem-PRINT.aux'.
-
-[1
-
-] [2] (mem-PRINT.aux)
-\openout1 = `mem-PRINT.aux'.
-
-[1
+ [1
 
 ] [2] (mem-PRINT.aux)
 \openout1 = `mem-PRINT.aux'.
@@ -806,57 +735,18 @@ return to the right one by typing `I}' or `I$' or `I\par'.
  [1
 
 ] [2]
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Elder.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Elder.tex)
 (mem-PRINT.aux)
 \openout1 = `mem-PRINT.aux'.
 
  [1
 
 ] [2]
-
-! datatype MemEnvelope error: \MYtext used but not \s in \mPackE.
-? \MYtext must either be set by \s or have a default declared by 
-  "\FD {\MYtext} { default }" before it is used.
-!punting LaTeX!
-
-! You can't use `\end' in internal vertical mode.
-\:typerr ... #2
-!punting LaTeX!}\batchmode \@@end 
-                                                  
-<argument> ...pty \else {\em \@tmp }\\\fi \MYtext 
-                                                  \hfil \@@par 
-\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
-                                                  \color@endgroup }\def \wid...
-
-\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
-                                                  \ifx \relax #2\else \setle...
-<argument> ...se {\em \@tmp }\\\fi \MYtext \hfil }
-                                                   \vskip \packetspace }
-\fbox ...box {\color@begingroup \kern \fboxsep {#1
-                                                  }\kern \fboxsep \color@end...
-<argument> ...Ytext \hfil } \vskip \packetspace }}
-                                                  }
-\card_calc ...lobal \setbox \front_card \hbox {{#1
-                                                  }}\global \setbox \front_c...
-
-\card #1->\card_calc {#1}{}
-                           \putcard 
-\EnvelopePacket ...hfil } \vskip \packetspace }}}}
-                                                  \endgroup 
-\\EnvelopeMempacket ...\else {\em \@tmp }\\\fi #4}
-                                                  \endgroup 
-...
-l.5 \production
-               
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Rebel.tex)
 (mem-PRINT.aux)
 \openout1 = `mem-PRINT.aux'.
 
-[1
+ [1
 
 ] [2] (mem-PRINT.aux)
 \openout1 = `mem-PRINT.aux'.
@@ -869,162 +759,6 @@ return to the right one by typing `I}' or `I$' or `I\par'.
  [1
 
 ] [2]
-<<<<<<< HEAD
-
-! datatype MemEnvelope error: \MYtext used but not \s in \mPackT.
-? \MYtext must either be set by \s or have a default declared by 
-  "\FD {\MYtext} { default }" before it is used.
-!punting LaTeX!
-
-! You can't use `\end' in internal vertical mode.
-\:typerr ... #2
-!punting LaTeX!}\batchmode \@@end 
-                                                  
-<argument> ...pty \else {\em \@tmp }\\\fi \MYtext 
-                                                  \hfil \@@par 
-\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
-                                                  \color@endgroup }\def \wid...
-
-\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
-                                                  \ifx \relax #2\else \setle...
-<argument> ...se {\em \@tmp }\\\fi \MYtext \hfil }
-                                                   \vskip \packetspace }
-\fbox ...box {\color@begingroup \kern \fboxsep {#1
-                                                  }\kern \fboxsep \color@end...
-<argument> ...Ytext \hfil } \vskip \packetspace }}
-                                                  }
-\card_calc ...lobal \setbox \front_card \hbox {{#1
-                                                  }}\global \setbox \front_c...
-
-\card #1->\card_calc {#1}{}
-                           \putcard 
-\EnvelopePacket ...hfil } \vskip \packetspace }}}}
-                                                  \endgroup 
-\\EnvelopeMempacket ...\else {\em \@tmp }\\\fi #4}
-                                                  \endgroup 
-...
-l.5 \production
-               
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-(mem-PRINT.aux)
-=======
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Plaguebearer.t
-ex) (mem-PRINT.aux)
->>>>>>> b5908cad9e38b0f298a0fa2cedc0fe9f31c861dd
-\openout1 = `mem-PRINT.aux'.
-
-[1
-
-] [2] (C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Elder.tex) (mem-
-PRINT.aux)
-\openout1 = `mem-PRINT.aux'.
-
-[1
-
-] [2] (C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Rebel.tex) (mem-
-PRINT.aux)
-\openout1 = `mem-PRINT.aux'.
-
-[1
-
-] [2]
-
-! datatype MemEnvelope error: \MYtext used but not \s in \mPackF.
-? \MYtext must either be set by \s or have a default declared by 
-  "\FD {\MYtext} { default }" before it is used.
-!punting LaTeX!
-
-! You can't use `\end' in internal vertical mode.
-\:typerr ... #2
-!punting LaTeX!}\batchmode \@@end 
-                                                  
-<argument> ...pty \else {\em \@tmp }\\\fi \MYtext 
-                                                  \hfil \@@par 
-\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
-                                                  \color@endgroup }\def \wid...
-
-\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
-                                                  \ifx \relax #2\else \setle...
-<argument> ...se {\em \@tmp }\\\fi \MYtext \hfil }
-                                                   \vskip \packetspace }
-\fbox ...box {\color@begingroup \kern \fboxsep {#1
-                                                  }\kern \fboxsep \color@end...
-<argument> ...Ytext \hfil } \vskip \packetspace }}
-                                                  }
-\card_calc ...lobal \setbox \front_card \hbox {{#1
-                                                  }}\global \setbox \front_c...
-
-\card #1->\card_calc {#1}{}
-                           \putcard 
-\EnvelopePacket ...hfil } \vskip \packetspace }}}}
-                                                  \endgroup 
-\\EnvelopeMempacket ...\else {\em \@tmp }\\\fi #4}
-                                                  \endgroup 
-...
-l.5 \production
-               
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-(mem-PRINT.aux)
-\openout1 = `mem-PRINT.aux'.
-
-[1
-
-] [2]
-
-! datatype MemEnvelope error: \MYtext used but not \s in \mPackC.
-? \MYtext must either be set by \s or have a default declared by 
-  "\FD {\MYtext} { default }" before it is used.
-!punting LaTeX!
-
-! You can't use `\end' in internal vertical mode.
-\:typerr ... #2
-!punting LaTeX!}\batchmode \@@end 
-                                                  
-<argument> ...pty \else {\em \@tmp }\\\fi \MYtext 
-                                                  \hfil \@@par 
-\@begin@tempboxa ...mpboxa #1{\color@begingroup #2
-                                                  \color@endgroup }\def \wid...
-
-\@iiiparbox ...tempdima \@parboxrestore #5\@@par }
-                                                  \ifx \relax #2\else \setle...
-<argument> ...se {\em \@tmp }\\\fi \MYtext \hfil }
-                                                   \vskip \packetspace }
-\fbox ...box {\color@begingroup \kern \fboxsep {#1
-                                                  }\kern \fboxsep \color@end...
-<argument> ...Ytext \hfil } \vskip \packetspace }}
-                                                  }
-\card_calc ...lobal \setbox \front_card \hbox {{#1
-                                                  }}\global \setbox \front_c...
-
-\card #1->\card_calc {#1}{}
-                           \putcard 
-\EnvelopePacket ...hfil } \vskip \packetspace }}}}
-                                                  \endgroup 
-\\EnvelopeMempacket ...\else {\em \@tmp }\\\fi #4}
-                                                  \endgroup 
-...
-l.5 \production
-               
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-(mem-PRINT.aux)
-\openout1 = `mem-PRINT.aux'.
-
-[1
-
-] [2]
-<<<<<<< HEAD
 Underfull \hbox (badness 1184) in paragraph at lines 5--5
 []\OT1/phv/m/n/9 Science thrives on in-ter-dis-ci-plinary col-lab-o-ra-tion. Th
 e
@@ -1033,30 +767,28 @@ e
 (mem-PRINT.aux)
 \openout1 = `mem-PRINT.aux'.
 
-[1
+ [1
 
-] [2] (C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Plaguebearer.tex
-) (mem-PRINT.aux)
+] [2]
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Plaguebearer.tex)
+(mem-PRINT.aux)
 \openout1 = `mem-PRINT.aux'.
 
-[1
+ [1
 
 ] [2] (mem-PRINT.aux)
 \openout1 = `mem-PRINT.aux'.
 
-[1
+ [1
 
 ] [2] (mem-PRINT.aux)
 \openout1 = `mem-PRINT.aux'.
 
-[1
+ [1
 
-] [2] (C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Shaman.tex) (C:/
-Users/mashtu/Documents/GitHub/Pestilence//Charsheets/ConA.tex)
-=======
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/Shaman.tex)
-(C:/Users/charf/OneDrive/Documents/GitHub/Pestilence//Charsheets/ConA.tex)
->>>>>>> b5908cad9e38b0f298a0fa2cedc0fe9f31c861dd
+] [2]
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/Shaman.tex)
+(C:/Users/mashtu/Documents/GitHub/Pestilence//Charsheets/ConA.tex)
 
 ! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
 
@@ -1099,6 +831,9 @@ Missing character: There is no I in font nullfont!
 
 ! datatype Place warning: \MYsigns in \pOwnedByGm is \s more than once.
 
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no I in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no I in font nullfont!
@@ -1152,39 +887,21 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no I in font nullfont!
 (mem-PRINT.aux) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 14251 strings out of 493333
- 209959 string characters out of 3136605
- 316884 words of memory out of 3000000
- 17472 multiletter control sequences out of 15000+200000
+ 14259 strings out of 493333
+ 209526 string characters out of 3136605
+ 317384 words of memory out of 3000000
+ 17481 multiletter control sequences out of 15000+200000
  35264 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,13n,55p,1519b,1936s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,13n,55p,1466b,1936s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on mem-PRINT.pdf (40 pages, 88308 bytes).
+Output written on mem-PRINT.pdf (40 pages, 88443 bytes).
 PDF statistics:
  149 PDF objects out of 1000 (max. 8388607)
-=======
- 14208 strings out of 493323
- 209984 string characters out of 3139067
- 314979 words of memory out of 3000000
- 17443 multiletter control sequences out of 15000+200000
- 35264 words of font info for 67 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 46i,13n,55p,1527b,1936s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/h
-elvetic/uhvro8a.pfb>
-Output written on mem-PRINT.pdf (34 pages, 80376 bytes).
-PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
->>>>>>> b5908cad9e38b0f298a0fa2cedc0fe9f31c861dd
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
